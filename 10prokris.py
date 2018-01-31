@@ -144,40 +144,19 @@ print "╔═══════════════════════�
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpmsg ="""
+keymsg ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ 
 ╠═════════════
 ║╔════════════
-║╠❂➣facebook
-║╠❂➣Youtube
-║╠❂➣Yt
-║╠❂➣Music
-║╠❂➣google (text)
-║╠❂➣playstore (text)
-║╠❂➣instagram (username)
-║╠❂➣wikipedia (text)
-║╠❂➣image (text)
-║╠❂➣lirik (text)
 ║╠❂➣Cipok
 ║╠❂➣Gcreator
 ║╠❂➣idline (text)
 ║╠❂➣time
-║╠❂➣Salam1/Salam2
 ║╠❂➣Creator
-║╠❂➣Kelahiran
-║╠❂➣Kalender/waktu
-║╠❂➣say
-║╠❂➣Gift8
-║╠❂➣Gift/Gift1/2/3
 ║╠❂➣reinvite
-║╠❂➣time
-║╠❂➣Kapan
-║╠❂➣Apakah
-║╠❂➣Nah
 ║╠❂➣Absen
 ║╠❂➣runtime
 ║╠❂➣speed
@@ -185,20 +164,18 @@ helpmsg ="""
 ║╚════════════
 ╚═════════════"""
 
-keymsg ="""
+helpmsg ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣keypro
 ║╠❂➣keyself
 ║╠❂➣keygrup
 ║╠❂➣keyset
-║╠❂➣keytran
-║╠❂➣mode on/off
+║╠❂➣keybot
 ║╚════════════
 ╚═════════════"""
 
@@ -206,8 +183,7 @@ helppro ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣mode on/off
@@ -222,18 +198,10 @@ helpself ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ 
 ╠═════════════
 ║╔════════════
-║╠❂➣cctv on/off (Lurking)
-║╠❂➣intip/toong (Lurkers)
-║╠❂➣Setimage: (link)
-║╠❂➣Papimage
-║╠❂➣Setvideo: (link)
-║╠❂➣Papvideo
 ║╠❂➣mymid
-║╠❂➣Getcover @
 ║╠❂➣Myname
 ║╠❂➣Mybot
 ║╠❂➣Mybio
@@ -242,35 +210,8 @@ helpself ="""
 ║╠❂➣Urlpict
 ║╠❂➣Mycover
 ║╠❂➣Urlcover
-║╠❂➣Getmid @
-║╠❂➣Getinfo @
-║╠❂➣Getbio @
-║╠❂➣Getname @
-║╠❂➣Getprofile @
-║╠❂➣Getcontact @
-║╠❂➣Getpict @
-║╠❂➣Getvid @
-║╠❂➣Picturl @
-║╠❂➣Getcover @
-║╠❂➣Coverurl @
-║╠❂➣Mycopy @
-║╠❂➣Mybackup
-║╠❂➣Testext: (text)
-║╠❂➣Spam change:
-║╠❂➣Spam add:
-║╠❂➣Spam:
-║╠❂➣Spam (text)
 ║╠❂➣Steal contact
 ║╠❂➣Auto add
-║╠❂➣Spam change:
-║╠❂➣Spam add:
-║╠❂➣Spam:
-║╠❂➣spam txt/on/jml
-║╠❂➣Micadd @
-║╠❂➣Micdel @
-║╠❂➣Miclist
-║╠❂➣Mimic target @
-║╠❂➣Mimic on/off
 ║╚════════════
 ╚═════════════"""
 
@@ -278,8 +219,7 @@ helpset ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣Gurl
@@ -293,11 +233,7 @@ helpset ="""
 ║╠❂➣contact on/off
 ║╠❂➣autojoin on/off
 ║╠❂➣autoleave on/off
-║╠❂➣autoadd on/off
-║╠❂➣like friend
-║╠❂➣Like me
 ║╠❂➣link on/off
-║╠❂➣simisimi on/off
 ║╠❂➣Autoread on/off
 ║╠❂➣update
 ║╠❂➣Pesan set:
@@ -315,8 +251,7 @@ helpgrup ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║
 ╠═════════════
 ║╔════════════
 ║╠❂➣Link on
@@ -393,30 +328,9 @@ helptranslate ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ 
 ╠═════════════
 ║╔════════════
-║╠❂➣Translate-id
-║╠❂➣Translate-en
-║╠❂➣Translate-ar
-║╠❂➣Translate-jp
-║╠❂➣Translate-ko
-║╠❂➣Id@en
-║╠❂➣En@id
-║╠❂➣Id@jp
-║╠❂➣Jp@id
-║╠❂➣Id@th
-║╠❂➣Th@id
-║╠❂➣Id@ar
-║╠❂➣Ar@id
-║╠❂➣Id@ko
-║╠❂➣Ko@id
-║╠❂➣Say-id
-║╠❂➣Say-en
-║╠❂➣Say-jp
-║╠❂➣Say-ar
-║╠❂➣Say-ko
 ║╠❂➣welcome
 ║╚════════════
 ╚═════════════"""
@@ -425,8 +339,7 @@ helprhs ="""
 ╔═════════════
 ║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
 ╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
+║ 
 ╠═════════════
 ║╔════════════
 ║╠❂➣Dadas
@@ -469,7 +382,7 @@ helprhs ="""
 ║╚════════════
 ╚═════════════"""
 
-KAC=[kr1,kr2,kr3,kr4,kr5,kr6,kr7,kr8,kr9,kr10,,kr11,kr12,kr13,kr14,kr15,kr16,kr17,kr18,kr19,kr20,kr21,kr22,kr23,kr24,kr25]
+KAC=[kr1,kr2,kr3,kr4,kr5,kr6,kr7,kr8,kr9,kr10,kr11,kr12,kr13,kr14,kr15,kr16,kr17,kr18,kr19,kr20,kr21,kr22,kr23,kr24,kr25]
 mid1 = kr1.getProfile().mid
 Amid = kr2.getProfile().mid
 Bmid = kr3.getProfile().mid
@@ -2584,7 +2497,7 @@ def bot(op):
                 if op.param2 in Gmid:
                     kr21.acceptGroupInvitation(op.param1)
             if op.param3 in Tmid:
-                if op.param2in Hmid:
+                if op.param2 in Hmid:
                     kr21.acceptGroupInvitation(op.param1)
             if op.param3 in Tmid:
                 if op.param2 in Jmid:
@@ -2658,7 +2571,7 @@ def bot(op):
                 if op.param2 in Gmid:
                     kr22.acceptGroupInvitation(op.param1)
             if op.param3 in Umid:
-                if op.param2in Hmid:
+                if op.param2 in Hmid:
                     kr22.acceptGroupInvitation(op.param1)
             if op.param3 in Umid:
                 if op.param2 in Jmid:
@@ -2732,7 +2645,7 @@ def bot(op):
                 if op.param2 in Gmid:
                     kr23.acceptGroupInvitation(op.param1)
             if op.param3 in Vmid:
-                if op.param2in Hmid:
+                if op.param2 in Hmid:
                     kr23.acceptGroupInvitation(op.param1)
             if op.param3 in Vmid:
                 if op.param2 in Jmid:
@@ -2806,7 +2719,7 @@ def bot(op):
                 if op.param2 in Gmid:
                     kr24.acceptGroupInvitation(op.param1)
             if op.param3 in Wmid:
-                if op.param2in Hmid:
+                if op.param2 in Hmid:
                     kr24.acceptGroupInvitation(op.param1)
             if op.param3 in Wmid:
                 if op.param2 in Jmid:
@@ -2880,7 +2793,7 @@ def bot(op):
                 if op.param2 in Gmid:
                     kr25.acceptGroupInvitation(op.param1)
             if op.param3 in Xmid:
-                if op.param2in Hmid:
+                if op.param2 in Hmid:
                     kr25.acceptGroupInvitation(op.param1)
             if op.param3 in Xmid:
                 if op.param2 in Jmid:
