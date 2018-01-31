@@ -3097,6 +3097,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr1.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr1.updateGroup(G)
@@ -3141,6 +3156,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr2.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr2.updateGroup(G)
@@ -3185,6 +3215,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr3.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr3.updateGroup(G)
@@ -3229,6 +3274,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr4.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr4.updateGroup(G)
@@ -3273,6 +3333,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr5.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr5.updateGroup(G)
@@ -3317,6 +3392,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr6.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr6.updateGroup(G)
@@ -3360,6 +3450,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr7.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr7.updateGroup(G)
@@ -3404,6 +3509,21 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
                     G = kr8.getGroup(op.param1)
                     G.preventJoinByTicket = True
                     kr8.updateGroup(G)
@@ -3421,6 +3541,885 @@ def bot(op):
                 else:
                     try:
                         kr10.kickoutFromGroup(op.param1,[op.param2])
+                        kr11.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr11.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr11.updateGroup(G)
+                    Ti = kr11.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr9.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr9.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True
+
+            if Imid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr11.kickoutFromGroup(op.param1,[op.param2])
+                        kr12.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr12.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr12.updateGroup(G)
+                    Ti = kr12.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr10.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr10.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True
+                            
+            if Jmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr12.kickoutFromGroup(op.param1,[op.param2])
+                        kr13.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr13.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr13.updateGroup(G)
+                    Ti = kr13.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr11.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr11.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True    
+            if Kmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr13.kickoutFromGroup(op.param1,[op.param2])
+                        kr14.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr14.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr14.updateGroup(G)
+                    Ti = kr14.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr12.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr12.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True                              
+                            
+            if Lmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr14.kickoutFromGroup(op.param1,[op.param2])
+                        kr15.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr15.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr13.updateGroup(G)
+                    Ti = kr15.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr13.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr13.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True               
+            if Mmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr15.kickoutFromGroup(op.param1,[op.param2])
+                        kr16.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr16.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr16.updateGroup(G)
+                    Ti = kr16.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr14.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr14.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True               
+                            
+            if Nmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr16.kickoutFromGroup(op.param1,[op.param2])
+                        kr17.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr17.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr17.updateGroup(G)
+                    Ti = kr17.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr15.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr15.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True               
+                            
+            if Omid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr17.kickoutFromGroup(op.param1,[op.param2])
+                        kr18.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr18.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr18.updateGroup(G)
+                    Ti = kr18.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr16.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr16.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True                              
+            if Pmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr18.kickoutFromGroup(op.param1,[op.param2])
+                        kr19.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr19.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr19.updateGroup(G)
+                    Ti = kr19.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr17.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr17.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True               
+            if Qmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr19.kickoutFromGroup(op.param1,[op.param2])
+                        kr20.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr20.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr20.updateGroup(G)
+                    Ti = kr20.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr18.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr18.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True               
+                            
+            if Rmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr20.kickoutFromGroup(op.param1,[op.param2])
+                        kr21.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr21.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr21.updateGroup(G)
+                    Ti = kr21.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr19.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr19.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True                               
+            if Smid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr21.kickoutFromGroup(op.param1,[op.param2])
+                        kr22.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr22.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr22.updateGroup(G)
+                    Ti = kr22.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr20.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr20.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True           
+                            
+            if Tmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr22.kickoutFromGroup(op.param1,[op.param2])
+                        kr23.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr23.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr23.updateGroup(G)
+                    Ti = kr23.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr21.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr21.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True           
+                      
+            if Umid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr23.kickoutFromGroup(op.param1,[op.param2])
+                        kr24.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr24.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr24.updateGroup(G)
+                    Ti = kr24.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr22.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr22.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True    
+            if Vmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr24.kickoutFromGroup(op.param1,[op.param2])
+                        kr25.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            print ("client Kick regulation or Because it does not exist in the group\ngid=["+op.param1+"]\nmid=["+op.param2+"]")
+                        if op.param2 in wait["blacklist"]:
+                            pass
+                        else:
+                            if op.param2 in Bots:
+                                pass
+                            else:
+                                wait["blacklist"][op.param2] = True
+                    G = kr25.getGroup(op.param1)
+                    G.preventJoinByTicket = False
+                    kr25.updateGroup(G)
+                    Ti = kr25.reissueGroupTicket(op.param1)
+                    kr1.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr2.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr3.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr4.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr5.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr6.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr7.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr8.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr9.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr10.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr23.getGroup(op.param1)
+                    G.preventJoinByTicket = True
+                    kr23.updateGroup(G)
+                    if op.param2 in wait["blacklist"]:
+                        pass
+                    else:
+                        if op.param2 in Bots:
+                            pass
+                        else:
+                            wait["blacklist"][op.param2] = True            
+                            
+            if Wmid in op.param3:
+                if op.param2 in Bots or admin:
+                    pass
+                else:
+                    try:
+                        kr25.kickoutFromGroup(op.param1,[op.param2])
                         kr1.kickoutFromGroup(op.param1,[op.param2])
                     except:
                         try:
@@ -3448,18 +4447,33 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
-                    G = kr9.getGroup(op.param1)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr24.getGroup(op.param1)
                     G.preventJoinByTicket = True
-                    kr9.updateGroup(G)
+                    kr24.updateGroup(G)
                     if op.param2 in wait["blacklist"]:
                         pass
                     else:
                         if op.param2 in Bots:
                             pass
                         else:
-                            wait["blacklist"][op.param2] = True
-
-            if Imid in op.param3:
+                            wait["blacklist"][op.param2] = True                  
+                                         
+            if Xmid in op.param3:
                 if op.param2 in Bots or admin:
                     pass
                 else:
@@ -3492,17 +4506,31 @@ def bot(op):
                     kr8.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr9.acceptGroupInvitationByTicket(op.param1,Ti)
                     kr10.acceptGroupInvitationByTicket(op.param1,Ti)
-                    G = kr10.getGroup(op.param1)
+                    kr11.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr12.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr13.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr14.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr15.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr16.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr17.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr18.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr19.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr20.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr21.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr22.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr23.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr24.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kr25.acceptGroupInvitationByTicket(op.param1,Ti)
+                    G = kr25.getGroup(op.param1)
                     G.preventJoinByTicket = True
-                    kr10.updateGroup(G)
+                    kr25.updateGroup(G)
                     if op.param2 in wait["blacklist"]:
                         pass
                     else:
                         if op.param2 in Bots:
                             pass
                         else:
-                            wait["blacklist"][op.param2] = True
-
+                            wait["blacklist"][op.param2] = True                         
 #==========================[Kris]===========================
         if op.type == 19:
             if op.param3 in admin:
@@ -3670,7 +4698,7 @@ def bot(op):
             if op.param3 in Bots:
                 if op.param2 not in admin:
                     try:
-                        kr1.kickoutFromGroup(op.param1,[op.param2])
+                        kr11.kickoutFromGroup(op.param1,[op.param2])
                         Hmid=["udcf44c4272d8209a8a5f2dd1afeea93f"]
                         midd9 = (Hmid)
                         kr10.findAndAddContactsByMid(midd9)
@@ -3687,11 +4715,11 @@ def bot(op):
             if op.param3 in Bots:
                 if op.param2 not in admin:
                     try:
-                        kr2.kickoutFromGroup(op.param1,[op.param2])
+                        kr12.kickoutFromGroup(op.param1,[op.param2])
                         Imid=["u4a0be979fc73e88ebfe915bc917237b8"]
                         midd10 = (Imid)
-                        kr1.findAndAddContactsByMid(midd10)
-                        kr1.inviteIntoGroup(op.param1,[midd10])
+                        kr11.findAndAddContactsByMid(midd10)
+                        kr11.inviteIntoGroup(op.param1,[midd10])
                         kr10.acceptGroupInvitation(op.param1)
                     except:
                         random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
@@ -3700,6 +4728,260 @@ def bot(op):
                         random.choice(KAC).findAndAddContactsByMid(midd10)
                         random.choice(KAC).inviteIntoGroup(op.param1,[midd10])
                         kr10.acceptGroupInvitation(op.param1)
+                                    
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr13.kickoutFromGroup(op.param1,[op.param2])
+                        Jmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd11 = (Jmid)
+                        kr12.findAndAddContactsByMid(midd11)
+                        kr12.inviteIntoGroup(op.param1,[midd11])
+                        kr11.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Jmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd11 = (Jmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd11)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd11])
+                        kr11.acceptGroupInvitation(op.param1)            
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr14.kickoutFromGroup(op.param1,[op.param2])
+                        Kmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd12 = (Kmid)
+                        kr13.findAndAddContactsByMid(midd12)
+                        kr13.inviteIntoGroup(op.param1,[midd12])
+                        kr12.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Kmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd12 = (Kmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd12)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd12])
+                        kr12.acceptGroupInvitation(op.param1)           
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr15.kickoutFromGroup(op.param1,[op.param2])
+                        Lmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd13 = (Lmid)
+                        kr14.findAndAddContactsByMid(midd13)
+                        kr14.inviteIntoGroup(op.param1,[midd13])
+                        kr13.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Lmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd13 = (Lmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd13)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd13])
+                        kr13.acceptGroupInvitation(op.param1)                   
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr16.kickoutFromGroup(op.param1,[op.param2])
+                        Mmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd14 = (Mmid)
+                        kr15.findAndAddContactsByMid(midd14)
+                        kr15.inviteIntoGroup(op.param1,[midd14])
+                        kr14.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Mmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd14 = (Mmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd14)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd14])
+                        kr14.acceptGroupInvitation(op.param1)                    
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr17.kickoutFromGroup(op.param1,[op.param2])
+                        Nmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd15 = (Nmid)
+                        kr16.findAndAddContactsByMid(midd15)
+                        kr16.inviteIntoGroup(op.param1,[midd15])
+                        kr15.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Nmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd15 = (Nmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd15)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd15])
+                        kr15.acceptGroupInvitation(op.param1)           
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr18.kickoutFromGroup(op.param1,[op.param2])
+                        Omid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd16 = (Omid)
+                        kr17.findAndAddContactsByMid(midd16)
+                        kr17.inviteIntoGroup(op.param1,[midd16])
+                        kr16.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Omid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd16 = (Omid)
+                        random.choice(KAC).findAndAddContactsByMid(midd16)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd16])
+                        kr16.acceptGroupInvitation(op.param1)                  
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr19.kickoutFromGroup(op.param1,[op.param2])
+                        Pmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd17 = (Pmid)
+                        kr18.findAndAddContactsByMid(midd17)
+                        kr18.inviteIntoGroup(op.param1,[midd17])
+                        kr17.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Pmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd17 = (Pmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd17)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd17])
+                        kr17.acceptGroupInvitation(op.param1)        
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr20.kickoutFromGroup(op.param1,[op.param2])
+                        Qmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd18 = (Qmid)
+                        kr19.findAndAddContactsByMid(midd18)
+                        kr19.inviteIntoGroup(op.param1,[midd18])
+                        kr18.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Qmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd18 = (Qmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd18)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd18])
+                        kr18.acceptGroupInvitation(op.param1)            
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr21.kickoutFromGroup(op.param1,[op.param2])
+                        Rmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd19 = (Rmid)
+                        kr20.findAndAddContactsByMid(midd19)
+                        kr20.inviteIntoGroup(op.param1,[midd19])
+                        kr19.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Rmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd19 = (Rmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd19)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd19])
+                        kr19.acceptGroupInvitation(op.param1)            
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr22.kickoutFromGroup(op.param1,[op.param2])
+                        Smid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd20 = (Smid)
+                        kr21.findAndAddContactsByMid(midd20)
+                        kr21.inviteIntoGroup(op.param1,[midd20])
+                        kr20.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Smid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd20 = (Smid)
+                        random.choice(KAC).findAndAddContactsByMid(midd20)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd20])
+                        kr20.acceptGroupInvitation(op.param1)            
+                                     
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr23.kickoutFromGroup(op.param1,[op.param2])
+                        Tmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd21 = (Tmid)
+                        kr22.findAndAddContactsByMid(midd21)
+                        kr22.inviteIntoGroup(op.param1,[midd21])
+                        kr21.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Tmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd21 = (Tmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd21)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd21])
+                        kr21.acceptGroupInvitation(op.param1)         
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr24.kickoutFromGroup(op.param1,[op.param2])
+                        Umid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd22 = (Umid)
+                        kr23.findAndAddContactsByMid(midd22)
+                        kr23.inviteIntoGroup(op.param1,[midd22])
+                        kr22.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Umid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd22 = (Umid)
+                        random.choice(KAC).findAndAddContactsByMid(midd22)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd22])
+                        kr22.acceptGroupInvitation(op.param1)                 
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr25.kickoutFromGroup(op.param1,[op.param2])
+                        Vmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd23 = (Vmid)
+                        kr24.findAndAddContactsByMid(midd23)
+                        kr24.inviteIntoGroup(op.param1,[midd23])
+                        kr23.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Vmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd23 = (Vmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd23)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd23])
+                        kr23.acceptGroupInvitation(op.param1)     
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr1.kickoutFromGroup(op.param1,[op.param2])
+                        Wmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd24 = (Wmid)
+                        kr25.findAndAddContactsByMid(midd24)
+                        kr25.inviteIntoGroup(op.param1,[midd24])
+                        kr24.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Wmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd24 = (Wmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd24)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd24])
+                        kr24.acceptGroupInvitation(op.param1)                      
+                        
+            if op.param3 in Bots:
+                if op.param2 not in admin:
+                    try:
+                        kr2.kickoutFromGroup(op.param1,[op.param2])
+                        Xmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd25 = (Xmid)
+                        kr1.findAndAddContactsByMid(midd25)
+                        kr1.inviteIntoGroup(op.param1,[midd25])
+                        kr25.acceptGroupInvitation(op.param1)
+                    except:
+                        random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
+                        Xmid=["u4a0be979fc73e88ebfe915bc917237b8"]
+                        midd25 = (Xmid)
+                        random.choice(KAC).findAndAddContactsByMid(midd25)
+                        random.choice(KAC).inviteIntoGroup(op.param1,[midd25])
+                        kr25.acceptGroupInvitation(op.param1)                        
 #==========================[Kris]===========================
         if op.type == 19:
             if mid1 in op.param3:
@@ -3717,6 +4999,21 @@ def bot(op):
                 kr8.leaveRoom(op.param1)
                 kr9.leaveRoom(op.param1)
                 kr10.leaveRoom(op.param1)
+                kr11.leaveRoom(op.param1)
+                kr12.leaveRoom(op.param1)
+                kr13.leaveRoom(op.param1)
+                kr14.leaveRoom(op.param1)
+                kr15.leaveRoom(op.param1)
+                kr16.leaveRoom(op.param1)
+                kr17.leaveRoom(op.param1)
+                kr18.leaveRoom(op.param1)
+                kr19.leaveRoom(op.param1)
+                kr20.leaveRoom(op.param1)
+                kr21.leaveRoom(op.param1)
+                kr22.leaveRoom(op.param1)
+                kr23.leaveRoom(op.param1)
+                kr24.leaveRoom(op.param1)
+                kr25.leaveRoom(op.param1)
 #==========================[Kris]===========================
         if op.type == 24:
             if wait['leaveRoom'] == True:
@@ -3730,6 +5027,21 @@ def bot(op):
                 kr8.leaveRoom(op.param1)
                 kr9.leaveRoom(op.param1)
                 kr10.leaveRoom(op.param1)
+                kr11.leaveRoom(op.param1)
+                kr12.leaveRoom(op.param1)
+                kr13.leaveRoom(op.param1)
+                kr14.leaveRoom(op.param1)
+                kr15.leaveRoom(op.param1)
+                kr16.leaveRoom(op.param1)
+                kr17.leaveRoom(op.param1)
+                kr18.leaveRoom(op.param1)
+                kr19.leaveRoom(op.param1)
+                kr20.leaveRoom(op.param1)
+                kr21.leaveRoom(op.param1)
+                kr22.leaveRoom(op.param1)
+                kr23.leaveRoom(op.param1)
+                kr24.leaveRoom(op.param1)
+                kr25.leaveRoom(op.param1) 
 #==========================[Kris]===========================
         if op.type == 26:
             msg = op.message
@@ -3746,6 +5058,21 @@ def bot(op):
                     kr8.leaveRoom(msg.to)
                     kr9.leaveRoom(msg.to)
                     kr10.leaveRoom(msg.to)
+                    kr11.leaveRoom(msg.to)
+                    kr12.leaveRoom(msg.to)
+                    kr13.leaveRoom(msg.to)
+                    kr14.leaveRoom(msg.to)
+                    kr15.leaveRoom(msg.to)
+                    kr16.leaveRoom(msg.to)
+                    kr17.leaveRoom(msg.to)
+                    kr18.leaveRoom(msg.to)
+                    kr19.leaveRoom(msg.to)
+                    kr20.leaveRoom(msg.to)
+                    kr21.leaveRoom(msg.to)
+                    kr22.leaveRoom(msg.to)
+                    kr23.leaveRoom(msg.to)
+                    kr24.leaveRoom(msg.to)
+                    kr25.leaveRoom(msg.to)
 #==========================[Kris]===========================
             if msg.contentType == 16:
                 url = msg.contentMetadata["postEndUrl"]
@@ -3771,39 +5098,39 @@ def bot(op):
                             if data['result']['result'] == 100:
                                 kr1.sendText(msg.to, "[From Simi]\n" + data['result']['response'].encode('utf-8'))
 #==========================[Kris]===========================
-            if "MENTION" in msg.contentMetadata.keys() != None:
-                if wait['detectMention'] == True:
-                    contact = kr1.getContact(msg.from_)
-                    cName = contact.displayName
-                    balas = [cName + "Kangenkah sampai ngetag mulu?",cName + " nah mending pc aja klo penting..!", "kenapa, ", cName + " kangen ya?","kangen bilang, gak usah ngetag mulu, " + cName, "sekali lagi ngetag, bayar ya..!!! " + cName, "Tuh kan" + cName + "ngetag lagi, mojok aja yux...!!!"]
-                    ret_ = "[Auto Respon] " + random.choice(balas)
-                    name = re.findall(r'@(\w+)', msg.text)
-                    mention = ast.literal_eval(msg.contentMetadata["MENTION"])
-                    mentionees = mention['MENTIONEES']
-                    for mention in mentionees:
-                        if mention['M'] in Bots:
-                            kr1.sendText(msg.to,ret_)
-                            msg.contentType = 7
-                            msg.text = None
-                            msg.contentMetadata = {
-                                                        "STKID": "11866873",
-                                                        "STKPKGID": "1293049",
-                                                        "STKVER": "1" }
-                            kr1.sendMessage(msg)
-                            break            
+#            if "MENTION" in msg.contentMetadata.keys() != None:
+#                if wait['detectMention'] == True:
+#                    contact = kr1.getContact(msg.from_)
+#                    cName = contact.displayName
+#                    balas = [cName + "Kangenkah sampai ngetag mulu?",cName + " nah mending pc aja klo penting..!", "kenapa, ", cName + " kangen ya?","kangen bilang, gak usah ngetag mulu, " + cName, "sekali lagi ngetag, bayar ya..!!! " + cName, "Tuh kan" + cName + "ngetag lagi, mojok aja yux...!!!"]
+#                    ret_ = "[Auto Respon] " + random.choice(balas)
+#                    name = re.findall(r'@(\w+)', msg.text)
+#                    mention = ast.literal_eval(msg.contentMetadata["MENTION"])
+#                    mentionees = mention['MENTIONEES']
+#                    for mention in mentionees:
+#                        if mention['M'] in Bots:
+#                            kr1.sendText(msg.to,ret_)
+#                            msg.contentType = 7
+#                            msg.text = None
+#                            msg.contentMetadata = {
+#                                                        "STKID": "11866873",
+#                                                        "STKPKGID": "1293049",
+#                                                        "STKVER": "1" }
+#                            kr1.sendMessage(msg)
+#                            break            
 #==========================[Kris]===========================
-            if "MENTION" in msg.contentMetadata.keys() != None:
-                 if wait['potoMention'] == True:
-                     contact = kr1.getContact(msg.from_)
-                     cName = contact.pictureStatus
-                     balas = ["http://dl.profile.line-cdn.net/" + cName]
-                     ret_ = random.choice(balas)
-                     mention = ast.literal_eval(msg.contentMetadata["MENTION"])
-                     mentionees = mention["MENTIONEES"]
-                     for mention in mentionees:
-                           if mention["M"] in Bots:
-                                  kr1.sendImageWithURL(msg.to,ret_)
-                                  break  
+#            if "MENTION" in msg.contentMetadata.keys() != None:
+#                 if wait['potoMention'] == True:
+#                     contact = kr1.getContact(msg.from_)
+#                     cName = contact.pictureStatus
+#                     balas = ["http://dl.profile.line-cdn.net/" + cName]
+#                     ret_ = random.choice(balas)
+#                     mention = ast.literal_eval(msg.contentMetadata["MENTION"])
+#                     mentionees = mention["MENTIONEES"]
+#                     for mention in mentionees:
+#                           if mention["M"] in Bots:
+#                                  kr1.sendImageWithURL(msg.to,ret_)
+#                                  break  
 #==========================[Kris]===========================
             if "MENTION" in msg.contentMetadata.keys() != None:
                  if wait['kickMention'] == True:
@@ -4083,14 +5410,14 @@ def bot(op):
                     elapsed_time = time.time() - start
                     kr1.sendText(msg.to, "%sseconds" % (elapsed_time))
 #==========================[Kris]===========================
-            elif msg.text.lower() == 'crash':
+            elif msg.text.lower() == '#crash':
                 if msg.from_ in admin:
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': "u1f41296217e740650e0448b96851a3e2',"}
                     kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
                     kr2.sendMessage(msg)
-                    kr2.sendMessage(msg)
+                    kr3.sendMessage(msg)
+                    kr4.sendMessage(msg)
 #==========================[Kris]===========================
             elif msg.text.lower() == 'me':
                 msg.contentType = 13
@@ -4129,9 +5456,53 @@ def bot(op):
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': Imid}
                     kr10.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Jmid}
+                    kr11.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Kmid}
+                    kr12.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Lmid}
+                    kr13.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Mmid}
+                    kr14.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Nmid}
+                    kr15.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Omid}
+                    kr16.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Pmid}
+                    kr17.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Qmid}
+                    kr18.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Rmid}
+                    kr19.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Smid}
+                    kr20.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Tid1}
+                    kr21.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Umid}
+                    kr22.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Vmid}
+                    kr23.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Wmid}
+                    kr24.sendMessage(msg)
+                    msg.contentType = 13
+                    msg.contentMetadata = {'mid': Xmid}
+                    kr25.sendMessage(msg)
                     random.choice(KAC).sendImageWithURL(msg.to, url123)
                     random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Owner Bots ↩↥↥↥↥↥")
-
 #==========================[Kris]===========================
             elif msg.text.lower() == 'mode on':
                 if msg.from_ in admin:
@@ -4872,7 +6243,7 @@ def bot(op):
                 if msg.toType == 2:
                     kr1.sendText(msg.to,datetime.today().strftime('%H:%M:%S'))
 #==========================[Kris]===========================
-            elif "Dadas" in msg.text:
+            elif "." in msg.text:
                 if msg.from_ in owner:
                     if msg.toType == 2:
                         if msg.toType == 2:
@@ -4887,8 +6258,23 @@ def bot(op):
                             gs = kr7.getGroup(msg.to)
                             gs = kr8.getGroup(msg.to)
                             gs = kr9.getGroup(msg.to)
+                            gs = kr10.getGroup(msg.to)
+                            gs = kr11.getGroup(msg.to)
+                            gs = kr12.getGroup(msg.to)
+                            gs = kr13.getGroup(msg.to)
+                            gs = kr14.getGroup(msg.to)
+                            gs = kr15.getGroup(msg.to)
+                            gs = kr16.getGroup(msg.to)
+                            gs = kr17.getGroup(msg.to)
+                            gs = kr18.getGroup(msg.to)
+                            gs = kr19.getGroup(msg.to)
+                            gs = kr20.getGroup(msg.to)
+                            gs = kr21.getGroup(msg.to)
+                            gs = kr22.getGroup(msg.to)
+                            gs = kr23.getGroup(msg.to)
+                            gs = kr24.getGroup(msg.to)
                             kr1.sendText(msg.to,"Jangan panik, santai aja ya ô")
-                            kr2.sendText(msg.to,"Group di bersihkan...!!")
+                            kr25.sendText(msg.to,"Group di bersihkan...!!")
                             targets = []
                             for g in gs.members:
                                 if _name in g.displayName:
