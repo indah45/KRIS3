@@ -14,7 +14,7 @@ from gtts import gTTS
 
 kr1 = KRIS.LINE()
 #kr1.login(qr=True)
-kr1.login(token="") #1 => akun utama
+kr1.login(token="Epu3nGZUXkIBbAc8pI63.Pxo9EmeCWa93nKxrUdTCyW.MlYjIOSDAN103AmBPVd2fSOXI5xYw4JcDf7crugLDdw=") #1 => akun utama
 kr1.loginResult()
 
 #kr2 = KRIS.LINE()
@@ -324,13 +324,13 @@ mid = kr1.getProfile().mid
 Amid = kr2.getProfile().mid
 Bmid = kr3.getProfile().mid
 
-midd1=["u31ef22df7f538df1d74dc7f756ef1a32"]
+midd1=["ua573bd78c11cc00f773645d1b83b5c63"]
 #midd2=["u9cc2323f5b84f9df880c33aa9f9e3ae1"]
 #midd3=["uece14c5ae46691f48f03c4fd331c3fd8"]
 
 Bots=[mid,Amid,Bmid]
-owner=["u31ef22df7f538df1d74dc7f756ef1a32"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32",mid,Amid,Bmid]##Krisna,kris,
+owner=["ua573bd78c11cc00f773645d1b83b5c63"]
+admin=["ua573bd78c11cc00f773645d1b83b5c63","u31ef22df7f538df1d74dc7f756ef1a32",mid,Amid,Bmid]##Krisna,kris,
 
 wait = {
     'likeOn':False,
