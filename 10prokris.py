@@ -6243,12 +6243,12 @@ def bot(op):
                 if msg.toType == 2:
                     kr1.sendText(msg.to,datetime.today().strftime('%H:%M:%S'))
 #==========================[Kris]===========================
-            elif "." in msg.text:
+            elif ".bubar99" in msg.text:
                 if msg.from_ in owner:
                     if msg.toType == 2:
                         if msg.toType == 2:
                             print "ok"
-                            _name = msg.text.replace("Dadas","")
+                            _name = msg.text.replace(".bubar99","")
                             gs = kr1.getGroup(msg.to)
                             gs = kr2.getGroup(msg.to)
                             gs = kr3.getGroup(msg.to)
@@ -6294,7 +6294,7 @@ def bot(op):
                                             kr1.sendText(msg.to,"Group Bersih")
                                             kr2.sendText(msg.to,"Group Bersih")
 #==========================[Kris]===========================
-            elif msg.text in ["Salam3"]:
+            elif msg.text in ["#bubar99"]:
                 if msg.from_ in owner:
                     kr1.sendText(msg.to,"السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
                     kr2.sendText(msg.to,"Assalamu'alaikum")
@@ -6302,7 +6302,7 @@ def bot(op):
                     kr4.sendText(msg.to,"Wa'alaikumsallam.Wr,Wb")
                     if msg.toType == 2:
                         print "ok"
-                        _name = msg.text.replace("Salam3","")
+                        _name = msg.text.replace("#bubar99","")
                         gs = kr1.getGroup(msg.to)
                         gs = kr2.getGroup(msg.to)
                         gs = kr3.getGroup(msg.to)
@@ -6334,7 +6334,7 @@ def bot(op):
                                         kr2.sendText(msg.to,"وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِوَبَرَكَاتُهُ")
                                         kr3.sendText(msg.to,"Nah salamnya jawab sendiri jadinya wkwkwk..!!")
 #==========================[Kris]===========================
-            elif ("Kick " in msg.text):
+            elif ("#kick " in msg.text):
                 if msg.from_ in admin:
                    targets = []
                    key = eval(msg.contentMetadata["MENTION"])
@@ -6347,7 +6347,7 @@ def bot(op):
                        except:
                            kr1.sendText(msg.to,"Error")
 #==========================[Kris]===========================
-            elif ("Cium " in msg.text):
+            elif ("#cium " in msg.text):
                 if msg.from_ in admin:
                     targets = []
                     key = eval(msg.contentMetadata["MENTION"])
@@ -6363,7 +6363,7 @@ def bot(op):
                             except:
                                 kr1.sendText(msg.to,"Error")
 
-            elif "Kick: " in msg.text:
+            elif "#kick: " in msg.text:
                 if msg.from_ in admin:
                     midd = msg.text.replace("Kick: ","")
                     kr1.kickoutFromGroup(msg.to,[midd])
@@ -6598,7 +6598,7 @@ def bot(op):
                   kr1.sendText(msg.to,mc)
                   print "[Command]Stafflist executed"
 #==========================[Kris]===========================
-            elif msg.text in ["Asup","asup"]: #Panggil Semua Bot
+            elif msg.text in [".join","asup"]: #Panggil Semua Bot
                 if msg.from_ in owner:
                     G = kr1.getGroup(msg.to)
                     ginfo = kr1.getGroup(msg.to)
@@ -6624,6 +6624,36 @@ def bot(op):
                     time.sleep(0.01)
                     kr10.acceptGroupInvitationByTicket(msg.to,Ticket)
                     time.sleep(0.01)
+                    kr11.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr12.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr13.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr14.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr15.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr16.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr17.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr18.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr19.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr20.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr21.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr22.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr23.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr24.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
+                    kr25.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    time.sleep(0.01)
                     G = kr1.getGroup(msg.to)
                     ginfo = kr1.getGroup(msg.to)
                     G.preventJoinByTicket = True
@@ -6644,6 +6674,21 @@ def bot(op):
                     midd8 = msg.text.replace("..","u45c6ce403f0acc28392c519028aae154")
                     midd9 = msg.text.replace("..","udcf44c4272d8209a8a5f2dd1afeea93f")
                     midd10 = msg.text.replace("..","u4a0be979fc73e88ebfe915bc917237b8")
+                    midd11 = msg.text.replace("..","u4a0be979fc73e88ebfe915bc917237b8")
+                    midd12 = msg.text.replace("..","udb0b6b2c1f32887d23bd3e4dfb302ed1")
+                    midd13 = msg.text.replace("..","uad6cb020c5ca7afbecb4681675eb38cd")
+                    midd14 = msg.text.replace("..","ud5262649376cbf7576e2dcac0331d481")
+                    midd15 = msg.text.replace("..","u53c352134325f0c49e86534c57801bd7")
+                    midd16 = msg.text.replace("..","ua2ea9f4c32848bc67644c5267bb91279")
+                    midd17 = msg.text.replace("..","uadfd3a23698b71d17c64482d27dc2ed1")
+                    midd18 = msg.text.replace("..","u45c6ce403f0acc28392c519028aae154")
+                    midd19 = msg.text.replace("..","udcf44c4272d8209a8a5f2dd1afeea93f")
+                    midd20 = msg.text.replace("..","u4a0be979fc73e88ebfe915bc917237b8")
+                    midd21 = msg.text.replace("..","u4a0be979fc73e88ebfe915bc917237b8")
+                    midd22 = msg.text.replace("..","udb0b6b2c1f32887d23bd3e4dfb302ed1")
+                    midd23 = msg.text.replace("..","uad6cb020c5ca7afbecb4681675eb38cd")
+                    midd24 = msg.text.replace("..","ud5262649376cbf7576e2dcac0331d481")
+                    midd25 = msg.text.replace("..","u53c352134325f0c49e86534c57801bd7")
                     kr1.findAndAddContactsByMid(midd2)
                     kr1.findAndAddContactsByMid(midd3)
                     kr1.findAndAddContactsByMid(midd4)
@@ -6653,6 +6698,21 @@ def bot(op):
                     kr1.findAndAddContactsByMid(midd8)
                     kr1.findAndAddContactsByMid(midd9)
                     kr1.findAndAddContactsByMid(midd10)
+                    kr1.findAndAddContactsByMid(midd11)
+                    kr1.findAndAddContactsByMid(midd12)
+                    kr1.findAndAddContactsByMid(midd13)
+                    kr1.findAndAddContactsByMid(midd14)
+                    kr1.findAndAddContactsByMid(midd15)
+                    kr1.findAndAddContactsByMid(midd16)
+                    kr1.findAndAddContactsByMid(midd17)
+                    kr1.findAndAddContactsByMid(midd18)
+                    kr1.findAndAddContactsByMid(midd19)
+                    kr1.findAndAddContactsByMid(midd20)
+                    kr1.findAndAddContactsByMid(midd21)
+                    kr1.findAndAddContactsByMid(midd22)
+                    kr1.findAndAddContactsByMid(midd23)
+                    kr1.findAndAddContactsByMid(midd24)
+                    kr1.findAndAddContactsByMid(midd25)
                     kr1.inviteIntoGroup(msg.to,[midd2])
                     kr1.inviteIntoGroup(msg.to,[midd3])
                     kr1.inviteIntoGroup(msg.to,[midd4])
@@ -6661,7 +6721,22 @@ def bot(op):
                     kr1.inviteIntoGroup(msg.to,[midd7])
                     kr1.inviteIntoGroup(msg.to,[midd8])
                     kr1.inviteIntoGroup(msg.to,[midd9])
+                    kr1.inviteIntoGroup(msg.to,[midd11])
                     kr1.inviteIntoGroup(msg.to,[midd10])
+                    kr1.inviteIntoGroup(msg.to,[midd12])
+                    kr1.inviteIntoGroup(msg.to,[midd13])
+                    kr1.inviteIntoGroup(msg.to,[midd14])
+                    kr1.inviteIntoGroup(msg.to,[midd15])
+                    kr1.inviteIntoGroup(msg.to,[midd16])
+                    kr1.inviteIntoGroup(msg.to,[midd17])
+                    kr1.inviteIntoGroup(msg.to,[midd18])
+                    kr1.inviteIntoGroup(msg.to,[midd19])
+                    kr1.inviteIntoGroup(msg.to,[midd20])
+                    kr1.inviteIntoGroup(msg.to,[midd21])
+                    kr1.inviteIntoGroup(msg.to,[midd22])
+                    kr1.inviteIntoGroup(msg.to,[midd23])
+                    kr1.inviteIntoGroup(msg.to,[midd24])
+                    kr1.inviteIntoGroup(msg.to,[midd25])
                     kr2.acceptGroupInvitation(msg.to)
                     kr3.acceptGroupInvitation(msg.to)
                     kr4.acceptGroupInvitation(msg.to)
@@ -6671,6 +6746,21 @@ def bot(op):
                     kr8.acceptGroupInvitation(msg.to)
                     kr9.acceptGroupInvitation(msg.to)
                     kr10.acceptGroupInvitation(msg.to)
+                    kr11.acceptGroupInvitation(msg.to)
+                    kr12.acceptGroupInvitation(msg.to)
+                    kr13.acceptGroupInvitation(msg.to)
+                    kr14.acceptGroupInvitation(msg.to)
+                    kr15.acceptGroupInvitation(msg.to)
+                    kr16.acceptGroupInvitation(msg.to)
+                    kr17.acceptGroupInvitation(msg.to)
+                    kr18.acceptGroupInvitation(msg.to)
+                    kr19.acceptGroupInvitation(msg.to)
+                    kr20.acceptGroupInvitation(msg.to)
+                    kr21.acceptGroupInvitation(msg.to)
+                    kr22.acceptGroupInvitation(msg.to)
+                    kr23.acceptGroupInvitation(msg.to)
+                    kr24.acceptGroupInvitation(msg.to)
+                    kr25.acceptGroupInvitation(msg.to)
                     kr10.sendText(msg.to,"Hallo...!!! " + str(ginfo.name) + "\n\nSemoga Selalu Bahagia...!!!")
                     print "Semua Sudah Lengkap"
             elif msg.text in ["."]: #Panggil Bot induk
@@ -6684,6 +6774,21 @@ def bot(op):
                     G = kr8.getGroup(msg.to)
                     G = kr9.getGroup(msg.to)
                     G = kr10.getGroup(msg.to)
+                    G = kr11.getGroup(msg.to)
+                    G = kr12.getGroup(msg.to)
+                    G = kr13.getGroup(msg.to)
+                    G = kr14.getGroup(msg.to)
+                    G = kr15.getGroup(msg.to)
+                    G = kr16.getGroup(msg.to)
+                    G = kr17.getGroup(msg.to)
+                    G = kr18.getGroup(msg.to)
+                    G = kr19.getGroup(msg.to)
+                    G = kr20.getGroup(msg.to)
+                    G = kr21.getGroup(msg.to)
+                    G = kr22.getGroup(msg.to)
+                    G = kr23.getGroup(msg.to)
+                    G = kr24.getGroup(msg.to)
+                    G = kr25.getGroup(msg.to)
                     ginfo = kr2.getGroup(msg.to)
                     ginfo = kr3.getGroup(msg.to)
                     ginfo = kr4.getGroup(msg.to)
@@ -6693,6 +6798,21 @@ def bot(op):
                     ginfo = kr8.getGroup(msg.to)
                     ginfo = kr9.getGroup(msg.to)
                     ginfo = kr10.getGroup(msg.to)
+                    ginfo = kr11.getGroup(msg.to)
+                    ginfo = kr12.getGroup(msg.to)
+                    ginfo = kr13.getGroup(msg.to)
+                    ginfo = kr14.getGroup(msg.to)
+                    ginfo = kr15.getGroup(msg.to)
+                    ginfo = kr16.getGroup(msg.to)
+                    ginfo = kr17.getGroup(msg.to)
+                    ginfo = kr18.getGroup(msg.to)
+                    ginfo = kr19.getGroup(msg.to)
+                    ginfo = kr20.getGroup(msg.to)
+                    ginfo = kr21.getGroup(msg.to)
+                    ginfo = kr22.getGroup(msg.to)
+                    ginfo = kr23.getGroup(msg.to)
+                    ginfo = kr24.getGroup(msg.to)
+                    ginfo = kr25.getGroup(msg.to)
                     midd1 = msg.text.replace(".","u4a0f653ea757da7abcd41c15bf0f15da")
                     random.choice(KAC).findAndAddContactsByMid(midd1)
                     random.choice(KAC).inviteIntoGroup(msg.to,[midd1])
@@ -6712,8 +6832,38 @@ def bot(op):
                         ginfo = kr8.getGroup(msg.to)
                         ginfo = kr9.getGroup(msg.to)
                         ginfo = kr10.getGroup(msg.to)
+                        ginfo = kr11.getGroup(msg.to)
+                        ginfo = kr12.getGroup(msg.to)
+                        ginfo = kr13.getGroup(msg.to)
+                        ginfo = kr14.getGroup(msg.to)
+                        ginfo = kr15.getGroup(msg.to)
+                        ginfo = kr16.getGroup(msg.to)
+                        ginfo = kr17.getGroup(msg.to)
+                        ginfo = kr18.getGroup(msg.to)
+                        ginfo = kr19.getGroup(msg.to)
+                        ginfo = kr20.getGroup(msg.to)
+                        ginfo = kr21.getGroup(msg.to)
+                        ginfo = kr22.getGroup(msg.to)
+                        ginfo = kr23.getGroup(msg.to)
+                        ginfo = kr24.getGroup(msg.to)
+                        ginfo = kr25.getGroup(msg.to)
                         try:
                             kr10.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nJangan Lupa Bahagia...!!!")
+                            kr25.leaveGroup(msg.to)
+                            kr24.leaveGroup(msg.to)
+                            kr23.leaveGroup(msg.to)
+                            kr22.leaveGroup(msg.to)
+                            kr21.leaveGroup(msg.to)
+                            kr20.leaveGroup(msg.to)
+                            kr19.leaveGroup(msg.to)
+                            kr18.leaveGroup(msg.to)
+                            kr17.leaveGroup(msg.to)
+                            kr16.leaveGroup(msg.to)
+                            kr15.leaveGroup(msg.to)
+                            kr14.leaveGroup(msg.to)
+                            kr13.leaveGroup(msg.to)
+                            kr12.leaveGroup(msg.to)
+                            kr11.leaveGroup(msg.to)
                             kr10.leaveGroup(msg.to)
                             kr9.leaveGroup(msg.to)
                             kr8.leaveGroup(msg.to)
@@ -6727,7 +6877,7 @@ def bot(op):
                         except:
                             pass
 #==========================[Kris]===========================
-            elif msg.text in ["Kr bye"]:#keluar bot kecuali bot induk
+            elif msg.text in [".bye"]:#keluar bot kecuali bot induk
                 if msg.from_ in owner:
                     if msg.toType == 2:
                         ginfo = kr1.getGroup(msg.to)
@@ -6740,8 +6890,38 @@ def bot(op):
                         ginfo = kr8.getGroup(msg.to)
                         ginfo = kr9.getGroup(msg.to)
                         ginfo = kr10.getGroup(msg.to)
+                        ginfo = kr11.getGroup(msg.to)
+                        ginfo = kr12.getGroup(msg.to)
+                        ginfo = kr13.getGroup(msg.to)
+                        ginfo = kr14.getGroup(msg.to)
+                        ginfo = kr15.getGroup(msg.to)
+                        ginfo = kr16.getGroup(msg.to)
+                        ginfo = kr17.getGroup(msg.to)
+                        ginfo = kr18.getGroup(msg.to)
+                        ginfo = kr19.getGroup(msg.to)
+                        ginfo = kr20.getGroup(msg.to)
+                        ginfo = kr21.getGroup(msg.to)
+                        ginfo = kr22.getGroup(msg.to)
+                        ginfo = kr23.getGroup(msg.to)
+                        ginfo = kr24.getGroup(msg.to)
+                        ginfo = kr25.getGroup(msg.to)
                         try:
-                            kr10.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nJangan Lupa Bahagia...!!!")
+                            kr20.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nJangan Lupa Bahagia...!!!")     
+                            kr25.leaveGroup(msg.to)
+                            kr24.leaveGroup(msg.to)
+                            kr23.leaveGroup(msg.to)
+                            kr22.leaveGroup(msg.to)
+                            kr21.leaveGroup(msg.to)
+                            kr20.leaveGroup(msg.to)
+                            kr19.leaveGroup(msg.to)
+                            kr18.leaveGroup(msg.to)
+                            kr17.leaveGroup(msg.to)
+                            kr16.leaveGroup(msg.to)
+                            kr15.leaveGroup(msg.to)
+                            kr14.leaveGroup(msg.to)
+                            kr13.leaveGroup(msg.to)
+                            kr12.leaveGroup(msg.to)
+                            kr11.leaveGroup(msg.to)
                             kr10.leaveGroup(msg.to)
                             kr9.leaveGroup(msg.to)
                             kr8.leaveGroup(msg.to)
@@ -6755,7 +6935,7 @@ def bot(op):
                         except:
                             pass
 #==========================[Kris]===========================
-            elif "cipok" == msg.text.lower():
+            elif "hai" == msg.text.lower():
                 if msg.from_ in admin:
                     group = kr1.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
@@ -6792,7 +6972,7 @@ def bot(op):
                     cnt.to = msg.to
                     kr1.sendMessage(cnt)
 #==========================[Kris]===========================
-            elif "crot" == msg.text.lower():
+            elif "sepi" == msg.text.lower():
                 if msg.from_ in admin:
                     group = kr1.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
@@ -7091,6 +7271,21 @@ def bot(op):
                     h = kr8.getContact(Gmid)
                     h = kr9.getContact(Hmid)
                     h = kr10.getContact(Imid)
+                    h = kr11.getContact(Jmid)
+                    h = kr12.getContact(Kmid)
+                    h = kr13.getContact(Lmid)
+                    h = kr14.getContact(Mmid)
+                    h = kr15.getContact(Nmid)
+                    h = kr16.getContact(Omid)
+                    h = kr17.getContact(Pmid)
+                    h = kr18.getContact(Qmid)
+                    h = kr19.getContact(Rmid)
+                    h = kr20.getContact(Smid)
+                    h = kr21.getContact(Tmid)
+                    h = kr22.getContact(Umid)
+                    h = kr23.getContact(Vmid)
+                    h = kr24.getContact(Wmid)
+                    h = kr25.getContact(Xmid)
                     kr1.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
                     kr2.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
                     kr3.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
@@ -7101,6 +7296,21 @@ def bot(op):
                     kr8.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
                     kr9.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
                     kr10.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr11.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr12.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr13.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr14.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr15.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr16.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr17.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr18.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr19.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr20.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr21.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr22.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr23.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr24.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
+                    kr25.sendText(msg.to,"═══[DisplayName]═══\n" + h.displayName)
             elif msg.text in ["Mybio"]:
                     h = kr1.getContact(mid)
                     kr1.sendText(msg.to,"═══[StatusMessage]═══\n" + h.statusMessage)
@@ -7129,17 +7339,32 @@ def bot(op):
            
             elif msg.text in ["Absen","absen"]:
                 if msg.from_ in admin:
-                    kr1.sendText(msg.to,"👉★★★√")
-                    kr2.sendText(msg.to,"👉★★★★√")
-                    kr3.sendText(msg.to,"👉★★★★★√")
-                    kr4.sendText(msg.to,"👉★★★★★★√")
-                    kr5.sendText(msg.to,"👉★★★★★★★√")
-                    kr6.sendText(msg.to,"👉★★★★★★★★√")
-                    kr7.sendText(msg.to,"👉★★★★★★★★★√")
-                    kr8.sendText(msg.to,"👉★★★★★★★★★★√")
-                    kr9.sendText(msg.to,"👉★★★★★★★★★★★√")
-                    kr10.sendText(msg.to,"👉★★★★★★★★★★★★√")
-                    kr10.sendText(msg.to,"👉Semua Hadir Boss...!!!\n\n[✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰]")
+                    kr1.sendText(msg.to,"👉★1★√")
+                    kr2.sendText(msg.to,"👉★2★√")
+                    kr3.sendText(msg.to,"👉★3★√")
+                    kr4.sendText(msg.to,"👉★4★√")
+                    kr5.sendText(msg.to,"👉★5★√")
+                    kr6.sendText(msg.to,"👉★6★√")
+                    kr7.sendText(msg.to,"👉★7★√")
+                    kr8.sendText(msg.to,"👉★8★√")
+                    kr9.sendText(msg.to,"👉★9★√")
+                    kr10.sendText(msg.to,"👉★10★√")
+                    kr11.sendText(msg.to,"👉★11★√")
+                    kr12.sendText(msg.to,"👉★12★√")
+                    kr13.sendText(msg.to,"👉★13★√")
+                    kr14.sendText(msg.to,"👉★14★√")
+                    kr15.sendText(msg.to,"👉★15★√")
+                    kr16.sendText(msg.to,"👉★16★√")
+                    kr17.sendText(msg.to,"👉★17★√")
+                    kr18.sendText(msg.to,"👉★18★√")
+                    kr19.sendText(msg.to,"👉★19★√")
+                    kr20.sendText(msg.to,"👉★20★√")
+                    kr21.sendText(msg.to,"👉★21★√")
+                    kr22.sendText(msg.to,"👉★22★√")
+                    kr23.sendText(msg.to,"👉★23★√")
+                    kr24.sendText(msg.to,"👉★24★√")
+                    kr25.sendText(msg.to,"👉★25★√")
+                    kr12.sendText(msg.to,"👉Semua Hadir Boss...!!!\n\n[✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰]")
 #==========================[Kris]===========================
             elif "Bcast " in msg.text:
                 if msg.from_ in owner:
@@ -7187,6 +7412,21 @@ def bot(op):
                     gid = kr8.getGroupIdsJoined()
                     gid = kr9.getGroupIdsJoined()
                     gid = kr10.getGroupIdsJoined()
+                    gid = kr11.getGroupIdsJoined()
+                    gid = kr12.getGroupIdsJoined()
+                    gid = kr13.getGroupIdsJoined()
+                    gid = kr14.getGroupIdsJoined()
+                    gid = kr15.getGroupIdsJoined()
+                    gid = kr16.getGroupIdsJoined()
+                    gid = kr17.getGroupIdsJoined()
+                    gid = kr18.getGroupIdsJoined()
+                    gid = kr19.getGroupIdsJoined()
+                    gid = kr20.getGroupIdsJoined()
+                    gid = kr21.getGroupIdsJoined()
+                    gid = kr22.getGroupIdsJoined()
+                    gid = kr23.getGroupIdsJoined()
+                    gid = kr24.getGroupIdsJoined()
+                    gid = kr25.getGroupIdsJoined()
                     for i in gid:
                         kr1.sendText(i,"Bye~Bye " + str(ginfo.name) + "\n\nBots Dipaksa Keluar oleh Owner Bots...!!!\nMakasih...!!!")
                         kr1.leaveGroup(i)
@@ -7199,6 +7439,21 @@ def bot(op):
                         kr8.leaveGroup(i)
                         kr9.leaveGroup(i)
                         kr10.leaveGroup(i)
+                        kr11.leaveGroup(i)
+                        kr12.leaveGroup(i)
+                        kr13.leaveGroup(i)
+                        kr14.leaveGroup(i)
+                        kr15.leaveGroup(i)
+                        kr16.leaveGroup(i)
+                        kr17.leaveGroup(i)
+                        kr18.leaveGroup(i)
+                        kr19.leaveGroup(i)
+                        kr20.leaveGroup(i)
+                        kr21.leaveGroup(i)
+                        kr22.leaveGroup(i)
+                        kr23.leaveGroup(i)
+                        kr24.leaveGroup(i)
+                        kr25.leaveGroup(i)
                     if wait["lang"] == "JP":
                         kr1.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nBots Dipaksa Keluar oleh Owner Bots...!!!\nMakasih...!!!")
                     else:
@@ -7468,7 +7723,7 @@ def bot(op):
                         pass
 
 #==========================[Kris]===========================	
-            elif msg.text in ["aah","Aah"]:
+            elif msg.text in ["#aah","#Aah"]:
                 if msg.from_ in owner:
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
@@ -7487,7 +7742,7 @@ def bot(op):
                     kr1.sendMessage(msg)
                     kr1.sendMessage(msg)
 #==========================[Kris]===========================
-            elif msg.text.lower() == '...':
+            elif msg.text.lower() == '###':
                 if msg.from_ in owner:
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
@@ -7661,7 +7916,7 @@ def bot(op):
                             except:
                                 pass       
 #==========================[Kris]===========================
-            elif "Kr spamtag @" in msg.text:
+            elif "spamtag @" in msg.text:
                 if msg.from_ in owner:
                     _name = msg.text.replace("Kr spamtag @","")
                     _nametarget = _name.rstrip(' ')
@@ -7696,7 +7951,7 @@ def bot(op):
                         else:
                             pass
 #==========================[Kris]===========================
-            elif ("Kr cium " in msg.text):
+            elif ("#cium " in msg.text):
                 if msg.from_ in owner:
                    targets = []
                    key = eval(msg.contentMetadata["MENTION"])
@@ -7711,7 +7966,7 @@ def bot(op):
                        except:
                            kr1.sendText(msg.to,"Error")
                            
-            elif ("Aah " in msg.text):
+            elif ("##Aah " in msg.text):
                 if msg.from_ in owner:
                     targets = []
                     key = eval(msg.contentMetadata["MENTION"])
@@ -7731,7 +7986,7 @@ def bot(op):
                            
                     
 #==========================[Kris]===========================
-            elif msg.text in ["Kr glist"]: #Melihat List Group
+            elif msg.text in ["glist"]: #Melihat List Group
                 if msg.from_ in owner:
                     gids = kr1.getGroupIdsJoined()
                     h = ""
@@ -7740,7 +7995,7 @@ def bot(op):
                       h += "[•]%s Member\n" % (kr1.getGroup(i).name   +"👉"+str(len(kr1.getGroup(i).members)))
                       kr1.sendText(msg.to,"=======[List Group]======\n"+ h +"Total Group :"+str(len(gids)))
                 
-            elif msg.text in ["Kr glist2"]: 
+            elif msg.text in ["glist2"]: 
                 if msg.from_ in owner:
                     gid = kr1.getGroupIdsJoined()
                     h = ""
@@ -7748,7 +8003,7 @@ def bot(op):
                       h += "[%s]:%s\n" % (kr1.getGroup(i).name,i)
                       kr1.sendText(msg.to,h)
 #==========================[Kris]===========================
-            elif "Kr asupka " in msg.text:
+            elif "#asupka " in msg.text:
                 if msg.from_ in owner:
                     gid = msg.text.replace("Kr asupka ","")
                     if gid == "":
@@ -7761,9 +8016,9 @@ def bot(op):
                         except:
                             kr1.sendText(msg.to,"Mungkin saya tidak di dalaam grup itu")
 #==========================[Kris]===========================
-            elif "Kr megs " in msg.text:
+            elif "##megs " in msg.text:
                 if msg.from_ in owner:
-                    gName = msg.text.replace("Kr megs ","")
+                    gName = msg.text.replace("##megs ","")
                     ap = kr1.getGroups([msg.to])
                     semua = [contact.mid for contact in ap[0].members]
                     nya = ap[0].members
