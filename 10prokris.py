@@ -10,7 +10,7 @@ import requests
 from io import StringIO
 from threading import Thread
 from gtts import gTTS
-from googletrans import Translator
+#from googletrans import Translator
 
 kr1 = KRIS.LINE()
 #kr1.login(qr=True)
@@ -61,6 +61,84 @@ kr10 = KRIS.LINE()
 #kr10.login(qr=True)
 kr10.login(token="")#10
 kr10.loginResult()
+
+kr11 = KRIS.LINE()
+#kr11.login(qr=True)
+kr11.login(token="")#11
+kr11.loginResult()
+
+kr12 = KRIS.LINE()
+#kr12.login(qr=True)
+kr12.login(token="")#12
+kr12.loginResult()
+
+kr13 = KRIS.LINE()
+#kr13.login(qr=True)
+kr13.login(token="")#13
+kr13.loginResult()
+
+kr14 = KRIS.LINE()
+#kr14.login(qr=True)
+kr14.login(token="")#14
+kr14.loginResult()
+
+kr15 = KRIS.LINE()
+#kr15.login(qr=True)
+kr15.login(token="")#15
+kr15.loginResult()
+
+kr16 = KRIS.LINE()
+#kr16.login(qr=True)
+kr16.login(token="")#16
+kr16.loginResult()
+
+kr17 = KRIS.LINE()
+#kr17.login(qr=True)
+kr17.login(token="")#17
+kr17.loginResult()
+
+kr18 = KRIS.LINE()
+#kr18.login(qr=True)
+kr18.login(token="")#18
+kr18.loginResult()
+
+kr19 = KRIS.LINE()
+#kr19.login(qr=True)
+kr19.login(token="")#19
+kr19.loginResult()
+
+
+kr20 = KRIS.LINE()
+#kr20.login(qr=True)
+kr20.login(token="")#20
+kr20.loginResult()
+
+kr21 = KRIS.LINE()
+#kr21.login(qr=True)
+kr21.login(token="")#21
+kr21.loginResult()
+
+kr22 = KRIS.LINE()
+#kr22.login(qr=True)
+kr22.login(token="")#22
+kr22.loginResult()
+
+kr23 = KRIS.LINE()
+#kr23.login(qr=True)
+kr23.login(token="")#23
+kr23.loginResult()
+
+kr24 = KRIS.LINE()
+#kr24.login(qr=True)
+kr24.login(token="")#24
+kr24.loginResult()
+
+kr25 = KRIS.LINE()
+#kr25.login(qr=True)
+kr25.login(token="")#25
+kr25.loginResult()
+
+#kr25 = kr24 = kr23 = kr22 = kr21 = kr19 = kr18 = kr17 = kr16 = kr15 = kr14 = kr13 = kr12 = kr11 = kr10 = kr9 = kr8 = kr7 = kr6 = kr5 = kr4 = kr3 = kr2 = kr1
 
 print "╔═════════════════════════\n║╔════════════════════════\n║╠❂➣ KRIS BERHASIL LOGIN\n║╚════════════════════════\n╚═════════════════════════"
 reload(sys)
@@ -391,7 +469,7 @@ helprhs ="""
 ║╚════════════
 ╚═════════════"""
 
-KAC=[kr1,kr2,kr3,kr4,kr5,kr6,kr7,kr8,kr9,kr10]
+KAC=[kr1,kr2,kr3,kr4,kr5,kr6,kr7,kr8,kr9,kr10,,kr11,kr12,kr13,kr14,kr15,kr16,kr17,kr18,kr19,kr20,kr21,kr22,kr23,kr24,kr25]
 mid1 = kr1.getProfile().mid
 Amid = kr2.getProfile().mid
 Bmid = kr3.getProfile().mid
@@ -402,6 +480,21 @@ Fmid = kr7.getProfile().mid
 Gmid = kr8.getProfile().mid
 Hmid = kr9.getProfile().mid
 Imid = kr10.getProfile().mid
+Jmid = kr11.getProfile().mid
+Kmid = kr12.getProfile().mid
+Lmid = kr13.getProfile().mid
+Mmid = kr14.getProfile().mid
+Nmid = kr15.getProfile().mid
+Omid = kr16.getProfile().mid
+Pmid = kr17.getProfile().mid
+Qmid = kr18.getProfile().mid
+Rmid = kr19.getProfile().mid
+Smid = kr20.getProfile().mid
+Tmid = kr21.getProfile().mid
+Umid = kr22.getProfile().mid
+Vmid = kr23.getProfile().mid
+Wmid = kr24.getProfile().mid
+Xmid = kr25.getProfile().mid
 midd1=["u4a0f653ea757da7abcd41c15bf0f15da"]
 midd2=["udb0b6b2c1f32887d23bd3e4dfb302ed1"]
 midd3=["uad6cb020c5ca7afbecb4681675eb38cd"]
@@ -412,11 +505,26 @@ midd7=["uadfd3a23698b71d17c64482d27dc2ed1"]
 midd8=["u45c6ce403f0acc28392c519028aae154"]
 midd9=["udcf44c4272d8209a8a5f2dd1afeea93f"]
 midd10=["u4a0be979fc73e88ebfe915bc917237b8"]
+midd11=["u4a0f653ea757da7abcd41c15bf0f15da"]
+midd12=["udb0b6b2c1f32887d23bd3e4dfb302ed1"]
+midd13=["uad6cb020c5ca7afbecb4681675eb38cd"]
+midd14=["ud5262649376cbf7576e2dcac0331d481"]
+midd15=["u53c352134325f0c49e86534c57801bd7"]
+midd16=["ua2ea9f4c32848bc67644c5267bb91279"]
+midd17=["uadfd3a23698b71d17c64482d27dc2ed1"]
+midd18=["u45c6ce403f0acc28392c519028aae154"]
+midd19=["udcf44c4272d8209a8a5f2dd1afeea93f"]
+midd20=["u4a0be979fc73e88ebfe915bc917237b8"]
+midd21=["u4a0f653ea757da7abcd41c15bf0f15da"]
+midd22=["udb0b6b2c1f32887d23bd3e4dfb302ed1"]
+midd23=["uad6cb020c5ca7afbecb4681675eb38cd"]
+midd24=["ud5262649376cbf7576e2dcac0331d481"]
+midd25=["u53c352134325f0c49e86534c57801bd7"]
 
 
-Bots=[mid1,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
-owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","u0e881fcbda6a0d82974a775f8015f4fe","ud3065a5bd9cf0d6961d9c046a124761c","u9d4b18194ce5b48d86fa27e5fac1d606","u60694eabf6ae04073739b4c95777d04a","uc70b2f7f85d13c96e0f28ded3b3b13d6",mid1,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]##Krisna,kris,
+Bots=[mid1,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid,Omid,Pmid,Qmid,Rmid,Smid,Tmid,Umid,Vmid,Wmid,Xmid]
+owner=["u31ef22df7f538df1d74dc7f756ef1a32"]
+admin=["u31ef22df7f538df1d74dc7f756ef1a32",mid1,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]##Krisna,kris,
 
 wait = {
     'likeOn':False,
@@ -510,6 +618,37 @@ contact = kr9.getProfile()
 mybackup = kr9.getProfile()
 contact = kr10.getProfile()
 mybackup = kr10.getProfile()
+contact = kr11.getProfile()
+mybackup = kr11.getProfile()
+contact = kr12.getProfile()
+mybackup = kr12.getProfile()
+contact = kr13.getProfile()
+mybackup = kr13.getProfile()
+contact = kr14.getProfile()
+mybackup = kr14.getProfile()
+contact = kr15.getProfile()
+mybackup = kr15.getProfile()
+contact = kr16.getProfile()
+mybackup = kr16.getProfile()
+contact = kr17.getProfile()
+mybackup = kr17.getProfile()
+contact = kr18.getProfile()
+mybackup = kr18.getProfile()
+contact = kr19.getProfile()
+mybackup = kr19.getProfile()
+contact = kr20.getProfile()
+mybackup = kr20.getProfile()
+contact = kr21.getProfile()
+mybackup = kr21.getProfile()
+contact = kr22.getProfile()
+mybackup = kr22.getProfile()
+contact = kr23.getProfile()
+mybackup = kr23.getProfile()
+contact = kr24.getProfile()
+mybackup = kr24.getProfile()
+contact = kr25.getProfile()
+mybackup = kr25.getProfile()
+
 mybackup.displayName = contact.displayName
 mybackup.statusMessage = contact.statusMessage
 mybackup.pictureStatus = contact.pictureStatus
@@ -597,57 +736,6 @@ def _images_get_all_items(page):
             time.sleep(0.1)        #Timer could be used to slow down the request for image downloads
             page = page[end_content:]
     return items
-
-#def autolike():
-#			for zx in range(0,100):
-#				hasil = kr1.activity(limit=100)
-#				if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
-#					try:
-#						kr1.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-#						kr1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea ««")
-#						print "DiLike"
-#					except:
-#							pass
-#				else:
-#						print "Sudah DiLike"
-#			time.sleep(500)
-#thread2 = threading.Thread(target=autolike)
-#thread2.daemon = True
-#thread2.start()
-
-#def autolike():
-#    for zx in range(0,100):
-#      hasil = kr1.activity(limit=100)
-#      if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
-#        try:
-#          kr1.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-#          kr1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰😊\n\n☆º°˚˚☆ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea ««")
-#          print "Like"
-#        except:
-#          pass
-#      else:
-#          print "Already Liked"
-#time.sleep(500)
-#thread2 = threading.Thread(target=autolike)
-#thread2.daemon = True
-#thread2.start()
-
-def yt(query):
-    with requests.session() as s:
-         isi = []
-         if query == "":
-             query = "S1B tanysyz"
-         s.headers['user-agent'] = 'Mozilla/5.0'
-         url    = 'http://www.youtube.com/results'
-         params = {'search_query': query}
-         r    = s.get(url, params=params)
-         soup = BeautifulSoup(r.content, 'html5lib')
-         for a in soup.select('.yt-lockup-title > a[title]'):
-            if '&list=' not in a['href']:
-                if 'watch?v' in a['href']:
-                    b = a['href'].replace('watch?v=', '')
-                    isi += ['youtu.be' + b]
-         return isi
 
 def waktu(secs):
     mins, secs = divmod(secs,60)
@@ -738,89 +826,6 @@ def NOTIFIED_READ_MESSAGE(op):
             pass
     except:
         pass
-
-def sendAudio(self, to_, path):
-        M = Message(to=to_, text=None, contentType = 3)
-        M_id = self.Talk.kr1.sendMessage(0,M).id
-        files = {
-            'file': open(path, 'rb'),
-        }
-        params = {
-            'name': 'media',
-            'oid': M_id,
-            'size': len(open(path, 'rb').read()),
-            'type': 'audio',
-            'ver': '1.0',
-        }
-        data = {
-            'params': json.dumps(params)
-        }
-
-        r = self.post_content('https://os.line.naver.jp/talk/m/upload.nhn', data=data, files=files)
-        print r
-        if r.status_code != 201:
-            raise Exception('Upload audio failure.')
-
-
-def sendAudioWithURL(self, to_, url):
-      path = '%s/pythonLine-%i.data' % (tempfile.gettempdir(), randint(0, 9))
-      r = requests.get(url, stream=True)
-      if r.status_code == 200:
-         with open(path, 'w') as f:
-            shutil.copyfileobj(r.raw, f)
-      else:
-         raise Exception('Download audio failure.')
-      try:
-         self.sendAudio(to_, path)
-      except Exception as e:
-            raise e
-def sendAudioWithURL(self, to_, url):
-      path = 'pythonLiness.data'
-      r = requests.get(url, stream=True)
-      if r.status_code == 200:
-         with open(path, 'w') as f:
-            shutil.copyfileobj(r.raw, f)
-      else:
-         raise Exception('Download Audio failure.')
-      try:
-         self.sendAudio(to_, path)
-      except Exception as e:
-         raise e
-
-def sendVoice(self, to_, path):
-        M = Message(to=to_, text=None, contentType = 3)
-        M.contentPreview = None
-        M_id = self._kr1.sendMessage(0,M).id
-        files = {
-            'file': open(path, 'rb'),
-        }
-        params = {
-            'name': 'voice_message',
-            'oid': M_id,
-            'size': len(open(path, 'rb').read()),
-            'type': 'audio',
-            'ver': '1.0',
-        }
-        data = {
-            'params': json.dumps(params)
-        }
-        r = self.post_content('https://os.line.naver.jp/talk/m/upload.nhn', data=data, files=files)
-        if r.status_code != 201:
-            raise Exception('Upload voice failure.')
-        return True
-
-def sendVideoWithURL(self, to_, url):
-      path = 'pythonLines.data'
-      r = requests.get(url, stream=True)
-      if r.status_code == 200:
-         with open(path, 'w') as f:
-            shutil.copyfileobj(r.raw, f)
-      else:
-         raise Exception('Download Audio failure.')
-      try:
-         self.sendVideo(to_, path)
-      except Exception as e:
-         raise e
 
 def mention(to,nama):
     aa = ""
@@ -1036,6 +1041,52 @@ def bot(op):
             if op.param3 in Imid:
                 if op.param2 in owner:
                     kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in owner:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in owner:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in owner:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in owner:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in  Nmid:
+                if op.param2 in owner:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in owner:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in owner:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in owner:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in owner:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in owner:
+                    kr20.acceptGroupInvitation(op.param1)     
+            if op.param3 in Tmid:
+                if op.param2 in owner:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in owner:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in owner:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in owner:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in owner:
+                    kr25.acceptGroupInvitation(op.param1)        
+                    
 #==========================[Kris]===========================
             if op.param3 in mid1:
                 if op.param2 in Amid:
@@ -1064,6 +1115,52 @@ def bot(op):
             if op.param3 in mid1:
                 if op.param2 in Imid:
                     kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Jmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Kmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Lmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Mmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Nmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Omid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Pmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Qmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Rmid:
+                    kr1.acceptGroupInvitation(op.param1)   
+            if op.param3 in mid1:
+                if op.param2 in Smid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Tmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Umid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Vmid:
+                    kr1.acceptGroupInvitation(op.param1)
+            if op.param3 in mid1:
+                if op.param2 in Wmid:
+                    kr1.acceptGroupInvitation(op.param1)       
+            if op.param3 in mid1:
+                if op.param2 in Xmid:
+                    kr1.acceptGroupInvitation(op.param1)              
+               
 #==========================[Kris]===========================
             if op.param3 in Amid:
                 if op.param2 in mid1:
@@ -1092,6 +1189,51 @@ def bot(op):
             if op.param3 in Amid:
                 if op.param2 in Imid:
                     kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Jmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Kmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Lmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Mmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Nmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Omid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Pmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Qmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Rmid:
+                    kr2.acceptGroupInvitation(op.param1)   
+            if op.param3 in Amid:
+                if op.param2 in Smid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Tmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Umid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Vmid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Amid:
+                if op.param2 in Wmid:
+                    kr2.acceptGroupInvitation(op.param1)       
+            if op.param3 in Amid:
+                if op.param2 in Xmid:
+                    kr2.acceptGroupInvitation(op.param1)          
 #==========================[Kris]===========================
             if op.param3 in Bmid:
                 if op.param2 in mid1:
@@ -1120,6 +1262,51 @@ def bot(op):
             if op.param3 in Bmid:
                 if op.param2 in Imid:
                     kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Jmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Kmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Lmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Mmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Nmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Omid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Pmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Qmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Rmid:
+                    kr3.acceptGroupInvitation(op.param1)   
+            if op.param3 in Bmid:
+                if op.param2 in Smid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Tmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Umid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Vmid:
+                    kr3.acceptGroupInvitation(op.param1)
+            if op.param3 in Bmid:
+                if op.param2 in Wmid:
+                    kr3.acceptGroupInvitation(op.param1)       
+            if op.param3 in Bmid:
+                if op.param2 in Xmid:
+                    kr3.acceptGroupInvitation(op.param1)                     
 #==========================[Kris]===========================
             if op.param3 in Cmid:
                 if op.param2 in mid1:
@@ -1148,6 +1335,51 @@ def bot(op):
             if op.param3 in Cmid:
                 if op.param2 in Imid:
                     kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Jmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Kmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Lmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Mmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Nmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Omid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Pmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Qmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Rmid:
+                    kr4.acceptGroupInvitation(op.param1)   
+            if op.param3 in Cmid:
+                if op.param2 in Smid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Tmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Umid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Vmid:
+                    kr4.acceptGroupInvitation(op.param1)
+            if op.param3 in Cmid:
+                if op.param2 in Wmid:
+                    kr4.acceptGroupInvitation(op.param1)       
+            if op.param3 in Cmid:
+                if op.param2 in Xmid:
+                    kr4.acceptGroupInvitation(op.param1)        
 #==========================[Kris]===========================
             if op.param3 in Dmid:
                 if op.param2 in mid1:
@@ -1176,6 +1408,51 @@ def bot(op):
             if op.param3 in Dmid:
                 if op.param2 in Imid:
                     kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Jmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Kmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Lmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Mmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Nmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Omid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Pmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Qmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Rmid:
+                    kr5.acceptGroupInvitation(op.param1)   
+            if op.param3 in Dmid:
+                if op.param2 in Smid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Tmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Umid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Vmid:
+                    kr5.acceptGroupInvitation(op.param1)
+            if op.param3 in Dmid:
+                if op.param2 in Wmid:
+                    kr5.acceptGroupInvitation(op.param1)       
+            if op.param3 in Dmid:
+                if op.param2 in Xmid:
+                    kr5.acceptGroupInvitation(op.param1)            
 #==========================[Kris]=========================== 
             if op.param3 in Emid:
                 if op.param2 in mid1:
@@ -1204,6 +1481,51 @@ def bot(op):
             if op.param3 in Emid:
                 if op.param2 in Imid:
                     kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Jmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Kmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Lmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Mmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Nmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Omid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Pmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Qmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Rmid:
+                    kr6.acceptGroupInvitation(op.param1)   
+            if op.param3 in Emid:
+                if op.param2 in Smid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Tmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Umid:
+                    kr2.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Vmid:
+                    kr6.acceptGroupInvitation(op.param1)
+            if op.param3 in Emid:
+                if op.param2 in Wmid:
+                    kr6.acceptGroupInvitation(op.param1)       
+            if op.param3 in Emid:
+                if op.param2 in Xmid:
+                    kr6.acceptGroupInvitation(op.param1)           
 #==========================[Kris]=========================== 
             if op.param3 in Fmid:
                 if op.param2 in mid1:
@@ -1232,6 +1554,51 @@ def bot(op):
             if op.param3 in Fmid:
                 if op.param2 in Imid:
                     kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Jmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Kmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Lmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Mmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Nmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Omid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Pmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Qmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Rmid:
+                    kr7.acceptGroupInvitation(op.param1)   
+            if op.param3 in Fmid:
+                if op.param2 in Smid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Tmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Umid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Vmid:
+                    kr7.acceptGroupInvitation(op.param1)
+            if op.param3 in Fmid:
+                if op.param2 in Wmid:
+                    kr7.acceptGroupInvitation(op.param1)       
+            if op.param3 in Fmid:
+                if op.param2 in Xmid:
+                    kr7.acceptGroupInvitation(op.param1)        
 #==========================[Kris]=========================== 
             if op.param3 in Gmid:
                 if op.param2 in mid1:
@@ -1260,6 +1627,51 @@ def bot(op):
             if op.param3 in Gmid:
                 if op.param2 in Imid:
                     kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Jmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Kmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Lmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Mmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Nmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Omid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Pmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Qmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Rmid:
+                    kr8.acceptGroupInvitation(op.param1)   
+            if op.param3 in Gmid:
+                if op.param2 in Smid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Tmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Umid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Vmid:
+                    kr8.acceptGroupInvitation(op.param1)
+            if op.param3 in Gmid:
+                if op.param2 in Wmid:
+                    kr8.acceptGroupInvitation(op.param1)       
+            if op.param3 in Gmid:
+                if op.param2 in Xmid:
+                    kr8.acceptGroupInvitation(op.param1)        
 #==========================[Kris]=========================== 
             if op.param3 in Hmid:
                 if op.param2 in mid1:
@@ -1288,6 +1700,51 @@ def bot(op):
             if op.param3 in Hmid:
                 if op.param2 in Imid:
                     kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Jmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Kmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Lmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Mmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Nmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Omid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Pmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Qmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Rmid:
+                    kr9.acceptGroupInvitation(op.param1)   
+            if op.param3 in Hmid:
+                if op.param2 in Smid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Tmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Umid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Vmid:
+                    kr9.acceptGroupInvitation(op.param1)
+            if op.param3 in Hmid:
+                if op.param2 in Wmid:
+                    kr9.acceptGroupInvitation(op.param1)       
+            if op.param3 in Hmid:
+                if op.param2 in Xmid:
+                    kr9.acceptGroupInvitation(op.param1)        
 #==========================[Kris]=========================== 
             if op.param3 in Imid:
                 if op.param2 in mid1:
@@ -1316,6 +1773,1161 @@ def bot(op):
             if op.param3 in Imid:
                 if op.param2 in Hmid:
                     kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Jmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Kmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Lmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Mmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Nmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Omid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Pmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Qmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Rmid:
+                    kr10.acceptGroupInvitation(op.param1)   
+            if op.param3 in Imid:
+                if op.param2 in Smid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Tmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Umid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Vmid:
+                    kr10.acceptGroupInvitation(op.param1)
+            if op.param3 in Imid:
+                if op.param2 in Wmid:
+                    kr10.acceptGroupInvitation(op.param1)       
+            if op.param3 in Imid:
+                if op.param2 in Xmid:
+                    kr10.acceptGroupInvitation(op.param1)        
+#------------------------------------------             
+            if op.param3 in Jmid:
+                if op.param2 in mid1:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Amid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Bmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Cmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Dmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Emid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Fmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Gmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Hmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Imid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Kmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Lmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Mmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Nmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Omid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Pmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Qmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Rmid:
+                    kr11.acceptGroupInvitation(op.param1)   
+            if op.param3 in Jmid:
+                if op.param2 in Smid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Tmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Umid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Vmid:
+                    kr11.acceptGroupInvitation(op.param1)
+            if op.param3 in Jmid:
+                if op.param2 in Wmid:
+                    kr11.acceptGroupInvitation(op.param1)       
+            if op.param3 in Jmid:
+                if op.param2 in Xmid:
+                    kr11.acceptGroupInvitation(op.param1)        
+                    
+#==========================[Kris]=========================== 
+            if op.param3 in Kmid:
+                if op.param2 in mid1:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Amid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Bmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Cmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Dmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Emid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Fmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Gmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Hmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Jmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Imid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Lmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Mmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Nmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Omid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Pmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Qmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Rmid:
+                    kr12.acceptGroupInvitation(op.param1)   
+            if op.param3 in Kmid:
+                if op.param2 in Smid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Tmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Umid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Vmid:
+                    kr12.acceptGroupInvitation(op.param1)
+            if op.param3 in Kmid:
+                if op.param2 in Wmid:
+                    kr12.acceptGroupInvitation(op.param1)       
+            if op.param3 in Kmid:
+                if op.param2 in Xmid:
+                    kr12.acceptGroupInvitation(op.param1)        
+                    
+#==========================[Kris]=========================== 
+            if op.param3 in Lmid:
+                if op.param2 in mid1:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Amid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Bmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Cmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Dmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Emid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Fmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Gmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Hmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Jmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Kmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Imid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Mmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Nmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Omid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Pmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Qmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Rmid:
+                    kr13.acceptGroupInvitation(op.param1)   
+            if op.param3 in Lmid:
+                if op.param2 in Smid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Tmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Umid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Vmid:
+                    kr13.acceptGroupInvitation(op.param1)
+            if op.param3 in Lmid:
+                if op.param2 in Wmid:
+                    kr13.acceptGroupInvitation(op.param1)       
+            if op.param3 in Lmid:
+                if op.param2 in Xmid:
+                    kr13.acceptGroupInvitation(op.param1)        
+              
+#==========================[Kris]=========================== 
+            if op.param3 in Mmid:
+                if op.param2 in mid1:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Amid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Bmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Cmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Dmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Emid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Fmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Gmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Hmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Jmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Kmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Lmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Imid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Nmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Omid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Pmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Qmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Rmid:
+                    kr14.acceptGroupInvitation(op.param1)   
+            if op.param3 in Mmid:
+                if op.param2 in Smid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Tmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Umid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Vmid:
+                    kr14.acceptGroupInvitation(op.param1)
+            if op.param3 in Mmid:
+                if op.param2 in Wmid:
+                    kr14.acceptGroupInvitation(op.param1)       
+            if op.param3 in Mmid:
+                if op.param2 in Xmid:
+                    kr14.acceptGroupInvitation(op.param1)        
+                    
+#==========================[Kris]=========================== 
+            if op.param3 in Nmid:
+                if op.param2 in mid1:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Amid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Bmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Cmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Dmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Emid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Fmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Gmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Hmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Jmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Kmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Lmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Mmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Imid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Omid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Pmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Qmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Rmid:
+                    kr15.acceptGroupInvitation(op.param1)   
+            if op.param3 in Nmid:
+                if op.param2 in Smid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Tmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Umid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Vmid:
+                    kr15.acceptGroupInvitation(op.param1)
+            if op.param3 in Nmid:
+                if op.param2 in Wmid:
+                    kr15.acceptGroupInvitation(op.param1)       
+            if op.param3 in Nmid:
+                if op.param2 in Xmid:
+                    kr15.acceptGroupInvitation(op.param1)        
+                    
+#==========================[Kris]=========================== 
+            if op.param3 in Omid:
+                if op.param2 in mid1:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Amid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Bmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Cmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Dmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Emid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Fmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Gmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Hmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Jmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Kmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Lmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Mmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Nmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Imid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Pmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Qmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Rmid:
+                    kr16.acceptGroupInvitation(op.param1)   
+            if op.param3 in Omid:
+                if op.param2 in Smid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Tmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Umid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Vmid:
+                    kr16.acceptGroupInvitation(op.param1)
+            if op.param3 in Omid:
+                if op.param2 in Wmid:
+                    kr16.acceptGroupInvitation(op.param1)       
+            if op.param3 in Omid:
+                if op.param2 in Xmid:
+                    kr16.acceptGroupInvitation(op.param1)        
+                   
+#==========================[Kris]=========================== 
+            if op.param3 in Pmid:
+                if op.param2 in mid1:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Amid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Bmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Cmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Dmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Emid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Fmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Gmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Hmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Jmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Kmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Lmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Mmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Nmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Omid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Imid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Qmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Rmid:
+                    kr17.acceptGroupInvitation(op.param1)   
+            if op.param3 in Pmid:
+                if op.param2 in Smid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Tmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Umid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Vmid:
+                    kr17.acceptGroupInvitation(op.param1)
+            if op.param3 in Pmid:
+                if op.param2 in Wmid:
+                    kr17.acceptGroupInvitation(op.param1)       
+            if op.param3 in Pmid:
+                if op.param2 in Xmid:
+                    kr17.acceptGroupInvitation(op.param1)        
+              
+#==========================[Kris]=========================== 
+            if op.param3 in Qmid:
+                if op.param2 in mid1:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Amid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Bmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Cmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Dmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Emid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Fmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Gmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Hmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Jmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Kmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Lmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Mmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Nmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Omid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Pmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Imid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Rmid:
+                    kr18.acceptGroupInvitation(op.param1)   
+            if op.param3 in Qmid:
+                if op.param2 in Smid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Tmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Umid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Vmid:
+                    kr18.acceptGroupInvitation(op.param1)
+            if op.param3 in Qmid:
+                if op.param2 in Wmid:
+                    kr18.acceptGroupInvitation(op.param1)       
+            if op.param3 in Qmid:
+                if op.param2 in Xmid:
+                    kr18.acceptGroupInvitation(op.param1)        
+             
+#==========================[Kris]=========================== 
+            if op.param3 in Rmid:
+                if op.param2 in mid1:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Amid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Bmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Cmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Dmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Emid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Fmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Gmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Hmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Jmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Kmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Lmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Mmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Nmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Omid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Pmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Qmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Imid:
+                    kr19.acceptGroupInvitation(op.param1)   
+            if op.param3 in Rmid:
+                if op.param2 in Smid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Tmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Umid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Vmid:
+                    kr19.acceptGroupInvitation(op.param1)
+            if op.param3 in Rmid:
+                if op.param2 in Wmid:
+                    kr19.acceptGroupInvitation(op.param1)       
+            if op.param3 in Rmid:
+                if op.param2 in Xmid:
+                    kr19.acceptGroupInvitation(op.param1)        
+               
+#==========================[Kris]=========================== 
+            if op.param3 in Smid:
+                if op.param2 in mid1:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Amid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Bmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Cmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Dmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Emid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Fmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Gmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Hmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Jmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Kmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Lmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.para3 in Smid:
+                if op.param2 in Mmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Nmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Omid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Pmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Qmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Rmid:
+                    kr20.acceptGroupInvitation(op.param1)   
+            if op.param3 in Smid:
+                if op.param2 in Tmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Imid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Umid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Vmid:
+                    kr20.acceptGroupInvitation(op.param1)
+            if op.param3 in Smid:
+                if op.param2 in Wmid:
+                    kr20.acceptGroupInvitation(op.param1)       
+            if op.param3 in Smid:
+                if op.param2 in Xmid:
+                    kr20.acceptGroupInvitation(op.param1)        
+             
+#==========================[Kris]=========================== 
+            if op.param3 in Tmid:
+                if op.param2 in mid1:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Amid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Bmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Cmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Dmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Emid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Fmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Gmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2in Hmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Jmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Kmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Lmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Mmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Nmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Omid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Pmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Qmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Rmid:
+                    kr21.acceptGroupInvitation(op.param1)   
+            if op.param3 in Tmid:
+                if op.param2 in Smid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Umid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Imid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Vmid:
+                    kr21.acceptGroupInvitation(op.param1)
+            if op.param3 in Tmid:
+                if op.param2 in Wmid:
+                    kr21.acceptGroupInvitation(op.param1)       
+            if op.param3 in Tmid:
+                if op.param2 in Xmid:
+                    kr21.acceptGroupInvitation(op.param1)        
+                
+#==========================[Kris]=========================== 
+            if op.param3 in Umid:
+                if op.pa2ram2 in mid1:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Amid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Bmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Cmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Dmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Emid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Fmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Gmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2in Hmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Jmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Kmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Lmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Mmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Nmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Omid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Pmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Qmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Rmid:
+                    kr22.acceptGroupInvitation(op.param1)   
+            if op.param3 in Umid:
+                if op.param2 in Smid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Tmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Imid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Vmid:
+                    kr22.acceptGroupInvitation(op.param1)
+            if op.param3 in Umid:
+                if op.param2 in Wmid:
+                    kr22.acceptGroupInvitation(op.param1)       
+            if op.param3 in Umid:
+                if op.param2 in Xmid:
+                    kr22.acceptGroupInvitation(op.param1)        
+               
+#==========================[Kris]=========================== 
+            if op.param3 in Vmid:
+                if op.param2 in mid1:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Amid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Bmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Cmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Dmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Emid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Fmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Gmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2in Hmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Jmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Kmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Lmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Mmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Nmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Omid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Pmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Qmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Rmid:
+                    kr23.acceptGroupInvitation(op.param1)   
+            if op.param3 in Vmid:
+                if op.param2 in Smid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Tmid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Imid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Umid:
+                    kr23.acceptGroupInvitation(op.param1)
+            if op.param3 in Vmid:
+                if op.param2 in Wmid:
+                    kr23.acceptGroupInvitation(op.param1)       
+            if op.param3 in Vmid:
+                if op.param2 in Xmid:
+                    kr23.acceptGroupInvitation(op.param1)        
+                 
+#==========================[Kris]=========================== 
+            if op.param3 in Wmid:
+                if op.param2 in mid1:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Amid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Bmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Cmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Dmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Emid:
+                    kr24.accptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Fmid:
+                    kr24.accWeptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Gmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2in Hmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Jmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Kmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Lmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Mmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Nmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Omid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Pmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Qmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Rmid:
+                    kr24.acceptGroupInvitation(op.param1)   
+            if op.param3 in Wmid:
+                if op.param2 in Smid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Tmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Imid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Vmid:
+                    kr24.acceptGroupInvitation(op.param1)
+            if op.param3 in Wmid:
+                if op.param2 in Umid:
+                    kr24.acceptGroupInvitation(op.param1)       
+            if op.param3 in Wmid:
+                if op.param2 in Xmid:
+                    kr24.acceptGroupInvitation(op.param1)        
+             
+#==========================[Kris]=========================== 
+            if op.param3 in Xmid:
+                if op.param2 in mid1:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Amid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Bmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Cmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Dmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Emid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Fmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Gmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2in Hmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Jmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Kmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Lmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Mmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Nmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Omid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Pmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Qmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Rmid:
+                    kr25.acceptGroupInvitation(op.param1)   
+            if op.param3 in Xmid:
+                if op.param2 in Smid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Tmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Imid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Vmid:
+                    kr25.acceptGroupInvitation(op.param1)
+            if op.param3 in Xmid:
+                if op.param2 in Wmid:
+                    kr25.acceptGroupInvitation(op.param1)       
+            if op.param3 in Xmid:
+                if op.param2 in Umid:
+                    kr25.acceptGroupInvitation(op.param1)        
+
 #==========================[Kris]=========================== 
         if op.type == 13:
             if mid1 in op.param3:
@@ -2450,12 +4062,12 @@ def bot(op):
                     else:
                         kr1.sendText(msg.to,helpset)
 #==========================[Kris]===========================
-            elif msg.text.lower() == 'keytran':
-                if msg.from_ in admin:
-                    if wait["lang"] == "JP":
-                        kr1.sendText(msg.to,helptranslate)
-                    else:
-                        kr1.sendText(msg.to,helptranslate)
+#            elif msg.text.lower() == 'keytran':
+#                if msg.from_ in admin:
+#                    if wait["lang"] == "JP":
+#                        kr1.sendText(msg.to,helptranslate)
+#                    else:
+#                        kr1.sendText(msg.to,helptranslate)
 #==========================[Kris]===========================
             elif msg.text.lower() == 'keyrhs':
                 if msg.from_ in admin:
@@ -2519,14 +4131,7 @@ def bot(op):
                     kr10.sendMessage(msg)
                     random.choice(KAC).sendImageWithURL(msg.to, url123)
                     random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Owner Bots ↩↥↥↥↥↥")
-#==========================[Kris]===========================
-            elif "facebook " in msg.text:
-                if msg.from_ in admin:
-                    a = msg.text.replace("facebook ","")
-                    b = urllib.quote(a)
-                    kr1.sendText(msg.to,"「 Mencari 」\n" "Type:Mencari Info\nStatus: Proses")
-                    kr1.sendText(msg.to, "https://www.facebook.com" + b)
-                    kr1.sendText(msg.to,"「 Mencari 」\n" "Type:Mencari Info\nStatus: Sukses")    
+
 #==========================[Kris]===========================
             elif msg.text.lower() == 'mode on':
                 if msg.from_ in admin:
@@ -2965,20 +4570,7 @@ def bot(op):
                             kr1.sendText(msg.to,"Auto Leave room set to off")
                         else:
                             kr1.sendText(msg.to,"Auto Leave room already off")
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'share on':
-                if msg.from_ in admin:
-                    if wait['timeline'] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Share set to on")
-                        else:
-                            kr1.sendText(msg.to,"Share already on")
-                    else:
-                        wait['timeline'] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Share set to on")
-                        else:
-                            kr1.sendText(msg.to,"Share already on")
+
 #==========================[Kris]===========================
             elif msg.text.lower() == 'Bot':
                 random.choice(KAC).sendImageWithURL(msg.to, url123)
@@ -3127,91 +4719,7 @@ def bot(op):
                         for mi_d in wait["commentBlack"]:
                             mc += "ãƒ»" +kr1.getContact(mi_d).displayName + "\n"
                         kr1.sendText(msg.to,mc)
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'jam on':
-                if msg.from_ in admin:
-                    if wait["clock"] == True:
-                        kr1.sendText(msg.to,"Jam already on")
-                    else:
-                        wait["clock"] = True
-                        now2 = datetime.now()
-                        nowT = datetime.strftime(now2,"?%H:%M?")
-                        profile = kr1.getProfile()
-                        profile.displayName = wait["cName"] + nowT
-                        kr1.updateProfile(profile)
-                        kr1.sendText(msg.to,"Jam set on")
-            elif msg.text.lower() == 'jam off':
-                if msg.from_ in admin:
-                    if wait["clock"] == False:
-                        kr1.sendText(msg.to,"Jam already off")
-                    else:
-                        wait["clock"] = False
-                        kr1.sendText(msg.to,"Jam set off")
-            elif "Jam say:" in msg.text:
-                if msg.from_ in admin:
-                    n = msg.text.replace("Jam say:","")
-                    if len(n.decode("utf-8")) > 30:
-                        kr1.sendText(msg.to,"terlalu lama")
-                    else:
-                        wait["cName"] = n
-                        kr1.sendText(msg.to,"Nama Jam Berubah menjadi:" + n)
-            elif msg.text.lower() == 'update':
-                if msg.from_ in admin:
-                    if wait["clock"] == True:
-                        now2 = datetime.now()
-                        nowT = datetime.strftime(now2,"?%H:%M?")
-                        profile = kr1.getProfile()
-                        profile.displayName = wait["cName"] + nowT
-                        kr1.updateProfile(profile)
-                        kr1.sendText(msg.to,"Diperbarui")
-                    else:
-                        kr1.sendText(msg.to,"Silahkan Aktifkan Jam")
-#==========================[Kris]===========================
-            elif "Image " in msg.text:
-                if msg.from_ in admin:
-                    search = msg.text.replace("Image ","")
-                    url = 'https://www.google.com/search?espv=2&biw=1366&bih=667&tbm=isch&oq=kuc&aqs=mobile-gws-lite.0.0l5&q=' + search
-                    raw_html = (download_page(url))
-                    items = []
-                    items = items + (_images_get_all_items(raw_html))
-                    path = random.choice(items)
-                    print path
-                    try:
-                        kr1.sendImageWithURL(msg.to,path)
-                    except:
-                        pass
-#==========================[Kris]===========================
-            elif "Spam change:" in msg.text:
-                if msg.from_ in admin:
-                    if msg.toType == 2:
-                        wait['spam'] = msg.text.replace("Spam change:","")
-                        kr1.sendText(msg.to,"spam changed")
-#==========================[Kris]===========================
-            elif "Spam add:" in msg.text:
-                if msg.from_ in admin:
-                    if msg.toType == 2:
-                        wait['spam'] = msg.text.replace("Spam add:","")
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"spam changed")
-                        else:
-                            kr1.sendText(msg.to,"Done")
-#==========================[Kris]===========================
-            elif "Spam:" in msg.text:
-                if msg.from_ in admin:
-                    if msg.toType == 2:
-                        strnum = msg.text.replace("Spam:","")
-                        num = int(strnum)
-                        for var in range(0,num):
-                            kr1.sendText(msg.to, wait['spam'])
-#==========================[Kris]===========================
-            elif ".spam " in msg.text:
-                if msg.from_ in admin:
-                    if msg.toType == 2:
-                        bctxt = msg.text.replace(".spam ", "")
-                        t = kr1.getAllContactIds()
-                        t = 500
-                        while(t):
-                            kr1.sendText(msg.to, (bctxt))
+
 #==========================[Kris]===========================
             elif "Spamcontact @" in msg.text:
                 if msg.from_ in owner:
@@ -3332,22 +4840,7 @@ def bot(op):
                             kr1.sendText(g.mid,'spam')
                             kr1.sendText(msg.to, "Selesai di Spam")
                             print " Spammed !"
-#==========================[Kris]===========================
-#            elif "crashkontak @" in msg.text:
-#                if msg.from_ in owner:
-#                    _name = msg.text.replace("crashkontak @","")
-#                    _nametarget = _name.rstrip(' ')
-#                    gs = kr1.getGroup(msg.to)
-#                    for g in gs.members:
-#                        if _nametarget == g.displayName:
-#                            xname = g.displayName + g.mid
-#                            xlen = str(len(xname)+1)
-#                            msg.contentType = 13
-#                            msg.text = 'mid'+xname+''
-#                            msg.contentMetadata = {'mid': "u1f41296217e740650e0448b96851a3e2',"}
-#                            kr1.sendMessage(msg)
-#                            kr1.sendText("crash kontak selesai")
-#                            print " Spammed crash !"
+
 #==========================[Kris]===========================
             elif msg.text in ["Invite"]:
                 if msg.from_ in admin:
@@ -3363,79 +4856,7 @@ def bot(op):
                 if msg.from_ in admin:
                     wait["winvite"] = True
                     kr2.sendText(msg.to,"Kirim Contact")
-#==========================[Kris]===========================
-            elif msg.text in ["Steal contact"]:
-                if msg.from_ in admin:
-                    wait['contact'] = True
-                    kr1.sendText(msg.to,"Send Contact")
-#==========================[Kris]===========================
-            elif msg.text in ["Like:me","Like me"]: #Semua Bot Ngelike Status Akun Utama
-                if msg.from_ in admin:
-                    print "[Command]Like executed"
-                    kr1.sendText(msg.to,"Like Status Owner")
-                    try:
-                        likeme()
-                    except:
-                        pass
-#==========================[Kris]===========================
-            elif msg.text in ["Like:friend","Like friend"]: #Semua Bot Ngelike Status Teman
-                if msg.from_ in admin:
-                    print "[Command]Like executed"
-                    kr1.sendText(msg.to,"Like Status Teman")
-                    try:
-                        likefriend()
-                    except:
-                        pass
-#==========================[Kris]===========================
-            elif msg.text in ["Like:on","Like on"]:
-                if msg.from_ in admin:
-                    if wait['likeOn'] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Done")
-                    else:
-                        wait['likeOn'] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Already")
-#==========================[Kris]===========================  
-            elif msg.text in ["Like off","Like:off"]:
-                if msg.from_ in admin:
-                    if wait['likeOn'] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Done")
-                    else:
-                        wait['likeOn'] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Already")
-#==========================[Kris]===========================  
-            elif msg.text in ["Simisimi on","Simisimi:on"]:
-                if msg.from_ in admin:
-                    settings["simiSimi"][msg.to] = True
-                    kr1.sendText(msg.to,"Simi mode On")
-#==========================[Kris]=========================== 
-            elif msg.text in ["Simisimi off","Simisimi:off"]:
-                if msg.from_ in admin:
-                    settings["simiSimi"][msg.to] = False
-                    kr1.sendText(msg.to,"Simi mode Off")
-#==========================[Kris]===========================  
-            elif msg.text in ["Tag on","tag on"]:
-                if msg.from_ in admin:
-                    wait['detectMention'] = True
-                    kr1.sendText(msg.to,"Auto respon tag On")
-#==========================[Kris]===========================
-            elif msg.text in ["Tag off","tag off"]:
-                if msg.from_ in admin:
-                    wait['detectMention'] = False
-                    kr1.sendText(msg.to,"Auto respon tag Off")
-#==========================[Kris]===========================
-            elif msg.text in ["Poto on","poto on"]:
-                if msg.from_ in admin:
-                    wait['potoMention'] = True
-                    kr1.sendText(msg.to,"Auto respon tag poto On")
-#==========================[Kris]===========================   
-            elif msg.text in ["Poto off","poto off"]:
-                if msg.from_ in admin:
-                    wait['potoMention'] = False
-                    kr1.sendText(msg.to,"Auto respon tag poto Off")
+
 #==========================[Kris]===========================
             elif msg.text in ["Tag2 on","tag2 on"]:
                 if msg.from_ in admin:
@@ -3450,63 +4871,6 @@ def bot(op):
             elif "Time" in msg.text:
                 if msg.toType == 2:
                     kr1.sendText(msg.to,datetime.today().strftime('%H:%M:%S'))
-#==========================[Kris]===========================
-            elif msg.text in ["Sambut on","sambut on"]:
-                if msg.from_ in admin:
-                    if wait["Wc"] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn on")
-                    else:
-                        wait["Wc"] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already on")
-            elif msg.text in ["Sambut off","sambut off"]:
-                if msg.from_ in admin:
-                    if wait["Wc"] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn oғғ")
-                    else:
-                        wait["Wc"] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already oғғ")
-#==========================[Kris]===========================
-            elif msg.text in ["Sambut2 on","sambut2 on"]:
-                if msg.from_ in admin:
-                    if wait["Wc2"] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn poto on")
-                    else:
-                        wait["Wc2"] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already on")
-            elif msg.text in ["Sambut2 off","sambut2 off"]:
-                if msg.from_ in admin:
-                    if wait["Wc2"] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn poto oғғ")
-                    else:
-                        wait["Wc2"] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already oғғ")
-#==========================[Kris]===========================
-            elif msg.text in ["Pergi on","pergi on"]:
-                if msg.from_ in admin:
-                    if wait["Lv"] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg leave on")
-                    else:
-                        wait["Lv"] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already on")
-            elif msg.text in ["Pergi off","pergi off"]:
-                if msg.from_ in admin:
-                    if wait["Lv"] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg leave oғғ")
-                    else:
-                        wait["Lv"] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already oғғ")
 #==========================[Kris]===========================
             elif "Dadas" in msg.text:
                 if msg.from_ in owner:
@@ -3544,12 +4908,6 @@ def bot(op):
                                             kr1.sendText(msg.to,"Group Bersih")
                                             kr2.sendText(msg.to,"Group Bersih")
 #==========================[Kris]===========================
-            elif msg.text in ["Salam1"]:
-                kr1.sendText(msg.to,"السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
-                kr2.sendText(msg.to,"Assalamu'alaikum")
-            elif msg.text in ["Salam2"]:
-                kr1.sendText(msg.to,"وَعَلَيْكُمْ السَّلاَمُرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
-                kr2.sendText(msg.to,"Wa'alaikumsallam.Wr,Wb")
             elif msg.text in ["Salam3"]:
                 if msg.from_ in owner:
                     kr1.sendText(msg.to,"السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
@@ -3618,42 +4976,7 @@ def bot(op):
                                 kr1.cancelGroupInvitation(msg.to,[target])
                             except:
                                 kr1.sendText(msg.to,"Error")
-#==========================[Kris]===========================
-#            elif "Tajong " in msg.text:
-#                if msg.from_ in admin:
-#                    nk0 = msg.text.replace("Tajong ","")
-#                    nk1 = nk0.lstrip()
-#                    nk2 = nk1.replace("@","")
-#                    nk3 = nk2.rstrip()
-#                    _name = nk3
-#                    gs = kr1.getGroup(msg.to)
-#                    ginfo = kr1.getGroup(msg.to)
-#                    gs.preventJoinByTicket = False
-#                    kr1.updateGroup(gs)
-#                    invsend = 0
-#                    Ticket = kr1.reissueGroupTicket(msg.to)
-#                    kr6.acceptGroupInvitationByTicket(msg.to,Ticket)
-#                    time.sleep(0.01)
-#                    targets = []
-#                    for s in gs.members:
-#                        if _name in s.displayName:
-#                           targets.append(s.mid)
-#                    if targets == []:
-#                       sendMessage(msg.to,"user does not exist")
-#                       pass
-#                    else:
-#                       for target in targets:
-#                          try:
-#                            kr6.kickoutFromGroup(msg.to,[target])
-#                            print (msg.to,[g.mid])
-#                          except:
-#                            kr6.leaveGroup(msg.to)
-#                            gs = kr1.getGroup(msg.to)
-#                            gs.preventJoinByTicket = True
-#                            kr1.updateGroup(gs)
-#                            gs.preventJoinByTicket(gs)
-#                            kr1.updateGroup(gs)
-#==========================[Kris]===========================
+
             elif "Kick: " in msg.text:
                 if msg.from_ in admin:
                     midd = msg.text.replace("Kick: ","")
@@ -3777,10 +5100,6 @@ def bot(op):
                     if group.invitee is None: md += "\nJumlah Member : " + str(len(group.members)) + " Orang" + "\nUndangan Yang Belum Diterima : 0 Orang"
                     else: md += "\nJumlah Member : " + str(len(group.members)) + " Orang" + "\nUndangan Yang Belum Diterima : " + str(len(group.invitee)) + " Orang"
                     kr1.sendText(msg.to,md)
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'Bot':
-                random.choice(KAC).sendImageWithURL(msg.to, url123)
-                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
 #==========================[Kris]===========================
             elif msg.text.lower() == 'grup id':
                 if msg.from_ in owner:
@@ -4123,127 +5442,12 @@ def bot(op):
                     cnt.text = "Jumlah:\n" + str(jml) +  " Members"
                     cnt.to = msg.to
                     kr1.sendMessage(cnt)
-#==========================[Kris]===========================
-            elif "cctv on" == msg.text.lower():
-                if msg.from_ in admin:
-                    if msg.to in wait2['readPoint']:
-                        try:
-                            del wait2['readPoint'][msg.to]
-                            del wait2['readMember'][msg.to]
-                            del wait2['setTime'][msg.to]
-                        except:
-                            pass
-                        wait2['readPoint'][msg.to] = msg.id
-                        wait2['readMember'][msg.to] = ""
-                        wait2['setTime'][msg.to] = datetime.now().strftime('%H:%M:%S')
-                        wait2['ROM'][msg.to] = {}
-                        with open('sider.json', 'w') as fp:
-                            json.dump(wait2, fp, sort_keys=True, indent=4)
-                            kr1.sendText(msg.to,"Setpoint already on")
-                    else:
-                        try:
-                            del wait2['readPoint'][msg.to]
-                            del wait2['readMember'][msg.to]
-                            del wait2['setTime'][msg.to]
-                        except:
-                            pass
-                        wait2['readPoint'][msg.to] = msg.id
-                        wait2['readMember'][msg.to] = ""
-                        wait2['setTime'][msg.to] = datetime.now().strftime('%H:%M:%S')
-                        wait2['ROM'][msg.to] = {}
-                        with open('sider.json', 'w') as fp:
-                            json.dump(wait2, fp, sort_keys=True, indent=4)
-                            kr1.sendText(msg.to, "Set reading point:\n" + datetime.now().strftime('%H:%M:%S'))
-                            print wait2
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'Bot':
-                random.choice(KAC).sendImageWithURL(msg.to, url123)
-                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
-                    
-            elif "cctv off" == msg.text.lower():
-                if msg.from_ in admin:
-                    if msg.to not in wait2['readPoint']:
-                        kr1.sendText(msg.to,"Setpoint already off")
-                    else:
-                        try:
-                            del wait2['readPoint'][msg.to]
-                            del wait2['readMember'][msg.to]
-                            del wait2['setTime'][msg.to]
-                        except:
-                             pass
-                        kr1.sendText(msg.to, "Delete reading point:\n" + datetime.now().strftime('%H:%M:%S'))
-#==========================[Kris]===========================
-            elif msg.text in ["toong","Toong"]:
-                if msg.from_ in admin:
-                    if msg.toType == 2:
-                        print "\nRead aktif..."
-                        if msg.to in wait2['readPoint']:
-                            if wait2['ROM'][msg.to].items() == []:
-                                chiya = ""
-                            else:
-                                chiya = ""
-                                for rom in wait2['ROM'][msg.to].items():
-                                    print rom
-                                    chiya += rom[1] + "\n"
-                            kr1.sendText(msg.to, "╔═════════════ \n╠❂➣Sider :\n╠═════════════                     %s\n╠\n╠═════════════\n╠❂➣Reader :\n╠═════════════ %s\n╠\n╠═════════════\n╠In the last seen point:\n╠[%s]\n╚═════════════" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
-                            print "\nReading Point Set..."
-                            try:
-                                del wait2['readPoint'][msg.to]
-                                del wait2['readMember'][msg.to]
-                            except:
-                                pass
-                            wait2['readPoint'][msg.to] = msg.id
-                            wait2['readMember'][msg.to] = ""
-                            wait2['setTime'][msg.to] = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
-                            wait2['ROM'][msg.to] = {}
-                            print "toong ready"
-                            kr1.sendText(msg.to, "Auto Read Point!!" + (wait2['setTime'][msg.to]))
-                        else:
-                            kr1.sendText(msg.to, "Ketik [Cctv on] dulu, baru ketik [Toong]")
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'Bot':
-                random.choice(KAC).sendImageWithURL(msg.to, url123)
-                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
-                    
-            elif "intip" == msg.text.lower():
-                if msg.from_ in admin:
-                    if msg.to in wait2['readPoint']:
-                        if wait2['ROM'][msg.to].items() == []:
-                            kr1.sendText(msg.to, "Reader:\nNone")
-                        else:
-                            chiya = []
-                            for rom in wait2['ROM'][msg.to].items():
-                                chiya.append(rom[1])
-                               
-                            cmem = kr1.getContacts(chiya)
-                            zx = ""
-                            zxc = ""
-                            zx2 = []
-                            xpesan = ''
-                        for x in range(len(cmem)):
-                                xname = str(cmem[x].displayName)
-                                pesan = ''
-                                pesan2 = pesan+"@a\n"
-                                xlen = str(len(zxc)+len(xpesan))
-                                xlen2 = str(len(zxc)+len(pesan2)+len(xpesan)-1)
-                                zx = {'S':xlen, 'E':xlen2, 'M':cmem[x].mid}
-                                zx2.append(zx)
-                                zxc += pesan2
-                                msg.contentType = 0
-           
-                        print zxc
-                        msg.text = xpesan+ zxc + "\nBefore: %s\nAfter: %s"%(wait2['setTime'][msg.to],datetime.now().strftime('%H:%M:%S'))
-                        lol ={"MENTION":str('{"MENTIONEES":'+json.dumps(zx2).replace(' ','')+'}')}
-                        print lol
-                        msg.contentMetadata = lol
-                        try:
-                            kr1.sendMessage(msg)
-                        except Exception as error:
-                            print error
-                        pass
 
-                    else:
-                        kr1.sendText(msg.to, "Lurking has not been set.")
+#==========================[Kris]===========================
+            elif msg.text.lower() == 'Bot':
+                random.choice(KAC).sendImageWithURL(msg.to, url123)
+                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
+                    
 #==========================[Kris]===========================
             elif "Gbroadcast: " in msg.text:
                 if msg.from_ in owner:
@@ -4258,26 +5462,7 @@ def bot(op):
                     gid = kr1.getAllContactIds()
                     for i in gid:
                         kr1.sendText(i, bc)
-#==========================[Kris]===========================
-            elif "Spam change: " in msg.text:
-                if msg.from_ in admin:
-                    wait['spam'] = msg.text.replace("Spam change: ","")
-                    kr1.sendText(msg.to,"spam changed")
-#==========================[Kris]===========================
-            elif "Spam add: " in msg.text:
-                if msg.from_ in admin:
-                    wait['spam'] = msg.text.replace("Spam add: ","")
-                    if wait["lang"] == "JP":
-                        kr1.sendText(msg.to,"spam changed")
-                    else:
-                        kr1.sendText(msg.to,"Done")
-#==========================[Kris]===========================
-            elif "Spam: " in msg.text:
-                if msg.from_ in admin:
-                    strnum = msg.text.replace("Spam: ","")
-                    num = int(strnum)
-                    for var in range(0,num):
-                        kr1.sendText(msg.to, wait['spam'])
+
 #==========================[Kris]===========================
             elif "Spamtag @" in msg.text:
                 if msg.from_ in admin:
@@ -4313,123 +5498,9 @@ def bot(op):
                             kr1.sendMessage(msg)
                         else:
                             pass
-#==========================[Kris]=========================== 
-            elif "Spam " in msg.text:
-                if msg.from_ in admin:
-                    txt = msg.text.split(" ")
-                    jmlh = int(txt[2])
-                    teks = msg.text.replace("Spam "+str(txt[1])+" "+str(jmlh)+" ","")
-                    tulisan = jmlh * (teks+"\n")
-                    if txt[1] == "on":
-                        if jmlh <= 100000:
-                           for x in range(jmlh):
-                               kr1.sendText(msg.to, teks)
-                        else:
-                           kr1.sendText(msg.to, "Out of Range!")
-                    elif txt[1] == "off":
-                        if jmlh <= 100000:
-                            kr1.sendText(msg.to, tulisan)
-                        else:
-                            kr1.sendText(msg.to, "Out Of Range!")
-#==========================[Kris]===========================  
-            elif ("Micadd " in msg.text):
-                if msg.from_ in admin:
-                    targets = []
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key["MENTIONEES"][0]["M"]
-                    for x in key["MENTIONEES"]:
-                        targets.append(x["M"])
-                    for target in targets:
-                        try:
-                            mimic["target"][target] = True
-                            kr1.sendText(msg.to,"Target ditambahkan!")
-                            break
-                        except:
-                            kr1.sendText(msg.to,"Fail !")
-                            break
-#==========================[Kris]===========================  
-            elif ("Micdel " in msg.text):
-                if msg.from_ in admin:
-                    targets = []
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key["MENTIONEES"][0]["M"]
-                    for x in key["MENTIONEES"]:
-                        targets.append(x["M"])
-                    for target in targets:
-                        try:
-                            del mimic["target"][target]
-                            kr1.sendText(msg.to,"Target dihapuskan!")
-                            break
-                        except:
-                            kr1.sendText(msg.to,"Fail !")
-                            break
-#==========================[Kris]=========================== 
-            elif msg.text in ["Miclist"]:
-                if msg.from_ in admin:
-                    if mimic["target"] == {}:
-                        kr1.sendText(msg.to,"nothing")
-                    else:
-                        mc = "Target mimic user\n"
-                        for mi_d in mimic["target"]:
-                            mc += "?? "+kr1.getContact(mi_d).displayName + "\n"
-                        kr1.sendText(msg.to,mc)
-#==========================[Kris]===========================
-            elif "Mimic target " in msg.text:
-                if msg.from_ in admin:
-                    if mimic["copy"] == True:
-                        siapa = msg.text.replace("Mimic target ","")
-                        if siapa.rstrip(' ') == "me":
-                            mimic["copy2"] = "me"
-                            kr1.sendText(msg.to,"Mimic change to me")
-                        elif siapa.rstrip(' ') == "target":
-                            mimic["copy2"] = "target"
-                            kr1.sendText(msg.to,"Mimic change to target")
-                        else:
-                            kr1.sendText(msg.to,"I dont know")
-#==========================[Kris]===========================
-            elif "Mimic " in msg.text:
-                if msg.from_ in admin:
-                    cmd = msg.text.replace("Mimic ","")
-                    if cmd == "on":
-                        if mimic["status"] == False:
-                            mimic["status"] = True
-                            kr1.sendText(msg.to,"Reply Message on")
-                        else:
-                            kr1.sendText(msg.to,"Sudah on")
-                    elif cmd == "off":
-                        if mimic["status"] == True:
-                            mimic["status"] = False
-                            kr1.sendText(msg.to,"Reply Message off")
-                        else:
-                            kr1.sendText(msg.to,"Sudah off")
-#==========================[Kris]===========================
-            elif "Setimage: " in msg.text:
-                if msg.from_ in admin:
-                    wait['pap'] = msg.text.replace("Setimage: ","")
-                    kr1.sendText(msg.to, "Pap telah di Set")
-            elif msg.text in ["Papimage","Papim",'pap']:
-                if msg.from_ in admin:
-                    kr1.sendImageWithURL(msg.to,wait['pap'])
-            elif "Setvideo: " in msg.text:
-                if msg.from_ in admin:
-                    wait['pap'] = msg.text.replace("Setvideo: ","")
-                    kr1.sendText(msg.to,"Video Has Ben Set To")
-            elif msg.text in ["Papvideo","Papvid"]:
-                if msg.from_ in admin:
-                    kr1.sendVideoWithURL(msg.to,wait['pap'])
-            elif "TL:" in msg.text:
-                if msg.from_ in admin:
-                    if msg.toType == 2:
-                        tl_text = msg.text.replace("TL:","")
-                        kr1.sendText(msg.to,"line://home/post?userMid="+mid+"&postId="+kr1.new_post(tl_text)["result"]["post"]["postInfo"]["postId"])
-#==========================[Kris]===========================
+
             elif msg.text.lower() == 'mymid':
                 kr1.sendText(msg.to,mid)
-#==========================[Kris]===========================
-            elif "Timeline: " in msg.text:
-                if msg.from_ in admin:
-                    tl_text = msg.text.replace("Timeline: ","")
-                    kr1.sendText(msg.to,"line://home/post?userMid="+mid+"&postId="+kr1.new_post(tl_text)["result"]["post"]["postInfo"]["postId"])
 #==========================[Kris]===========================
             elif "Namebot: " in msg.text:
                 if msg.from_ in owner:
@@ -4669,465 +5740,7 @@ def bot(op):
                     cu = kr1.channel.getCover(mid)          
                     path = str(cu)
                     kr1.sendText(msg.to, path)
-#==========================[Kris]===========================
-            elif "Getmid @" in msg.text:
-                if msg.from_ in admin:
-                    _name = msg.text.replace("Getmid @","")
-                    _nametarget = _name.rstrip(' ')
-                    gs = kr1.getGroup(msg.to)
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            kr1.sendText(msg.to, g.mid)
-                        else:
-                            pass
-            elif "Getinfo" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    try:
-                        kr1.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nMid :\n" + contact.mid + "\n\nBio :\n" + contact.statusMessage + "\n\nProfile Picture :\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n\nHeader :\n" + str(cu))
-                    except:
-                        kr1.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nMid :\n" + contact.mid + "\n\nBio :\n" + contact.statusMessage + "\n\nProfile Picture :\n" + str(cu))
-            elif "Getbio" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    try:
-                        kr1.sendText(msg.to, "===[StatusMessage]===\n" + contact.statusMessage)
-                    except:
-                        kr1.sendText(msg.to, "===[StatusMessage]===\n" + contact.statusMessage)
-            elif "Getname" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    try:
-                        kr1.sendText(msg.to, "===[DisplayName]===\n" + contact.displayName)
-                    except:
-                        kr1.sendText(msg.to, "===[DisplayName]===\n" + contact.displayName)
-            elif "Getprofile" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    path = str(cu)
-                    image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                    try:
-                        kr1.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nBio :\n" + contact.statusMessage)
-                        kr1.sendText(msg.to,"Profile Picture " + contact.displayName)
-                        kr1.sendImageWithURL(msg.to,image)
-                        kr1.sendText(msg.to,"Cover " + contact.displayName)
-                        kr1.sendImageWithURL(msg.to,path)
-                    except:
-                        pass
-            elif "Getcontact" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]                
-                    mmid = kr1.getContact(key1)
-                    msg.contentType = 13
-                    msg.contentMetadata = {"mid": key1}
-                    kr1.sendMessage(msg)
-            elif "Getpict @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Getpict @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                                kr1.sendImageWithURL(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]dp executed"
-            elif "Getvid @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Getvid @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                                kr1.sendVideoWithURL(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]dp executed"
-            elif "Picturl @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Picturl @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                                kr1.sendText(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]dp executed"
-            elif "Getcover @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]cover executing"
-                    _name = msg.text.replace("Getcover @","")    
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                cu = kr1.channel.getCover(target)          
-                                path = str(cu)
-                                kr1.sendImageWithURL(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]cover executed"
-            elif "Coverurl @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]cover executing"
-                    _name = msg.text.replace("Coverurl @","")    
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                cu = kr1.channel.getCover(target)          
-                                path = str(cu)
-                                kr1.sendText(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]cover executed"
-            elif "Getgrup image" in msg.text:
-                if msg.from_ in admin:
-                    group = kr1.getGroup(msg.to)
-                    path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                    kr1.sendImageWithURL(msg.to,path)
-            elif "Urlgrup image" in msg.text:
-                if msg.from_ in admin:
-                    group = kr1.getGroup(msg.to)
-                    path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                    kr1.sendText(msg.to,path)
-#==========================[Kris]===========================
-            elif "Mycopy @" in msg.text:
-                if msg.from_ in admin:
-                    print "[COPY] Ok"
-                    _name = msg.text.replace("Mycopy @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to, "Not Found...")
-                    else:
-                        for target in targets:
-                            try:
-                                kr1.CloneContactProfile(target)
-                                kr1.sendText(msg.to, "Copied.")
-                            except Exception as e:
-                                print e
-            elif msg.text in ["Mybackup","mybackup"]:
-                if msg.from_ in admin:
-                    try:
-                        kr1.updateDisplayPicture(backup.pictureStatus)
-                        kr1.updateProfile(backup)
-                        kr1.sendText(msg.to, "Refreshed.")
-                    except Exception as e:
-                        kr1.sendText(msg.to, str(e))
-#==============================================================================#
-            elif "Testext: " in msg.text:
-                if msg.from_ in admin:
-                    txt = msg.text.replace("Testext: ", "")
-                    kr1.kedapkedip(msg.to,txt)
-                    print "[Command] Kedapkedip"
-#==========================[Kris]===========================   
-            elif "Translate-id " in msg.text:
-                isi = msg.text.replace("Tr-id ","")
-                translator = Translator()
-                hasil = translator.translate(isi, dest='id')
-                A = hasil.text
-                A = A.encode('utf-8')
-                kr1.sendText(msg.to, A)
-            elif "Translate-en " in msg.text:
-                isi = msg.text.replace("Tr-en ","")
-                translator = Translator()
-                hasil = translator.translate(isi, dest='en')
-                A = hasil.text
-                A = A.encode('utf-8')
-                kr1.sendText(msg.to, A)
-            elif "Translate-ar" in msg.text:
-                isi = msg.text.replace("Tr-ar ","")
-                translator = Translator()
-                hasil = translator.translate(isi, dest='ar')
-                A = hasil.text
-                A = A.encode('utf-8')
-                kr1.sendText(msg.to, A)
-            elif "Translate-jp" in msg.text:
-                isi = msg.text.replace("Tr-jp ","")
-                translator = Translator()
-                hasil = translator.translate(isi, dest='ja')
-                A = hasil.text
-                A = A.encode('utf-8')
-                kr1.sendText(msg.to, A)
-            elif "Translate-ko" in msg.text:
-                isi = msg.text.replace("Tr-ko ","")
-                translator = Translator()
-                hasil = translator.translate(isi, dest='ko')
-                A = hasil.text
-                A = A.encode('utf-8')
-                kr1.sendText(msg.to, A)
-            elif msg.text.lower() == 'Bot':
-                random.choice(KAC).sendImageWithURL(msg.to, url123)
-                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
-            elif "Id@en" in msg.text:
-                bahasa_awal = 'id'
-                bahasa_tujuan = 'en'
-                kata = msg.text.replace("Id@en ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"**FROM ID**\n" + "" + kata + "\n**TO ENGLISH**\n" + "" + result + "\n**SUKSES**")
-            elif "En@id" in msg.text:
-                bahasa_awal = 'en'
-                bahasa_tujuan = 'id'
-                kata = msg.text.replace("En@id ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"**FROM EN**\n" + "" + kata + "\n**TO ID**\n" + "" + result + "\n**SUKSES**")
-            elif "Id@jp" in msg.text:
-                bahasa_awal = 'id'
-                bahasa_tujuan = 'ja'
-                kata = msg.text.replace("Id@jp ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"**FROM ID**\n" + "" + kata + "\n**TO JP**\n" + "" + result + "\n**SUKSES**")
-            elif "Jp@id" in msg.text:
-                bahasa_awal = 'ja'
-                bahasa_tujuan = 'id'
-                kata = msg.text.replace("Jp@id ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM JP----\n" + "" + kata + "\n----TO ID----\n" + "" + result + "\n------SUKSES-----")
-            elif "Id@th" in msg.text:
-                bahasa_awal = 'id'
-                bahasa_tujuan = 'th'
-                kata = msg.text.replace("Id@th ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM ID----\n" + "" + kata + "\n----TO TH----\n" + "" + result + "\n------SUKSES-----")
-            elif "Th@id" in msg.text:
-                bahasa_awal = 'th'
-                bahasa_tujuan = 'id'
-                kata = msg.text.replace("Th@id ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM TH----\n" + "" + kata + "\n----TO ID----\n" + "" + result + "\n------SUKSES-----")
-            elif "Id@jp" in msg.text:
-                bahasa_awal = 'id'
-                bahasa_tujuan = 'ja'
-                kata = msg.text.replace("Id@jp ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM ID----\n" + "" + kata + "\n----TO JP----\n" + "" + result + "\n------SUKSES-----")
-            elif "Id@ar" in msg.text:
-                bahasa_awal = 'id'
-                bahasa_tujuan = 'ar'
-                kata = msg.text.replace("Id@ar ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM ID----\n" + "" + kata + "\n----TO AR----\n" + "" + result + "\n------SUKSES-----")
-            elif "Ar@id" in msg.text:
-                bahasa_awal = 'ar'
-                bahasa_tujuan = 'id'
-                kata = msg.text.replace("Ar@id ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM AR----\n" + "" + kata + "\n----TO ID----\n" + "" + result + "\n------SUKSES-----")
-            elif "Id@ko" in msg.text:
-                bahasa_awal = 'id'
-                bahasa_tujuan = 'ko'
-                kata = msg.text.replace("Id@ko ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM ID----\n" + "" + kata + "\n----TO KO----\n" + "" + result + "\n------SUKSES-----")
-            elif "Ko@id" in msg.text:
-                bahasa_awal = 'ko'
-                bahasa_tujuan = 'id'
-                kata = msg.text.replace("Ko@id ","")
-                url = 'https://translate.google.com/m?sl=%s&tl=%s&ie=UTF-8&prev=_m&q=%s' % (bahasa_awal, bahasa_tujuan, kata.replace(" ", "+"))
-                agent = {'User-Agent':'Mozilla/5.0'}
-                cari_hasil = 'class="t0">'
-                request = urllib2.Request(url, headers=agent)
-                page = urllib2.urlopen(request).read()
-                result = page[page.find(cari_hasil)+len(cari_hasil):]
-                result = result.split("<")[0]
-                kr1.sendText(msg.to,"----FROM KO----\n" + "" + kata + "\n----TO ID----\n" + "" + result + "\n------SUKSES-----")
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'welcome':
-                ginfo = kr1.getGroup(msg.to)
-                kr1.sendText(msg.to,"Selamat Datang Di Grup " + str(ginfo.name))
-                jawaban1 = ("Selamat Datang Di Grup " + str(ginfo.name))
-                kr1.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
-                tts = gTTS(text=jawaban1, lang='id')
-                tts.save('tts.mp3')
-                kr1.sendAudio(msg.to,'tts.mp3')
-#==========================[Kris]===========================
-            elif "Say-id " in msg.text:
-                say = msg.text.replace("Say-id ","")
-                lang = 'id'
-                tts = gTTS(text=say, lang=lang)
-                tts.save("hasil.mp3")
-                kr1.sendAudio(msg.to,"hasil.mp3")
-                
-            elif "Say-en " in msg.text:
-                say = msg.text.replace("Say-en ","")
-                lang = 'en'
-                tts = gTTS(text=say, lang=lang)
-                tts.save("hasil.mp3")
-                kr1.sendAudio(msg.to,"hasil.mp3")
-                
-            elif "Say-jp " in msg.text:
-                say = msg.text.replace("Say-jp ","")
-                lang = 'ja'
-                tts = gTTS(text=say, lang=lang)
-                tts.save("hasil.mp3")
-                kr1.sendAudio(msg.to,"hasil.mp3")
-                
-            elif "Say-ar " in msg.text:
-                say = msg.text.replace("Say-ar ","")
-                lang = 'ar'
-                tts = gTTS(text=say, lang=lang)
-                tts.save("hasil.mp3")
-                kr1.sendAudio(msg.to,"hasil.mp3")
-                
-            elif "Say-ko " in msg.text:
-                say = msg.text.replace("Say-ko ","")
-                lang = 'ko'
-                tts = gTTS(text=say, lang=lang)
-                tts.save("hasil.mp3")
-                kr1.sendAudio(msg.to,"hasil.mp3")
-#==========================[Kris]=========================== 
-            elif "Kapan " in msg.text:
-                tanya = msg.text.replace("Kapan ","")
-                jawab = ("kapan kapan","besok","satu abad lagi","Hari ini","Tahun depan","Minggu depan","Bulan depan","Sebentar lagi")
-                jawaban = random.choice(jawab)
-                tts = gTTS(text=jawaban, lang='id')
-                tts.save('tts.mp3')
-                kr1.sendAudio(msg.to,'tts.mp3')
-                kr1.sendText(msg.to,jawaban)
-                kr2.sendText(msg.to,jawaban)
-                kr2.sendText(msg.to,jawaban)
-#==========================[Kris]===========================
-            elif "Apakah " in msg.text:
-                tanya = msg.text.replace("Apakah ","")
-                jawab = ("Ya","Tidak","Mungkin","Bisa jadi")
-                jawaban = random.choice(jawab)
-                tts = gTTS(text=jawaban, lang='id')
-                tts.save('tts.mp3')
-                kr1.sendAudio(msg.to,'tts.mp3')
-                kr1.sendText(msg.to,jawaban)
-                kr2.sendText(msg.to,jawaban)
-                kr2.sendText(msg.to,jawaban)
-#==========================[Kris]=========================== 
-            elif msg.text in ["Nah","nah"]:
-                kr1.sendText(msg.to,"Kan")
-                kr1.sendText(msg.to,"Kan")
-                kr1.sendText(msg.to,"Kan")
-#==========================[Kris]===========================
+           
             elif msg.text in ["Absen","absen"]:
                 if msg.from_ in admin:
                     kr1.sendText(msg.to,"👉★★★√")
@@ -5148,177 +5761,7 @@ def bot(op):
                     gid = kr1.getGroupIdsJoined()
                     for i in gid:
                         kr1.sendText(i,"●▬▬▬▬ஜ۩[BROADCAST]۩ஜ▬▬▬▬●\n\n"+bc+"\n\n#BROADCAST!!")
-#==========================[Kris]===========================
-            elif 'Youtube ' in msg.text:
-                if msg.from_ in admin:
-                    try:
-                        textToSearch = (msg.text).replace('Youtube ', "").strip()
-                        query = urllib.quote(textToSearch)
-                        url = "https://www.youtube.com/results?search_query=" + query
-                        response = urllib2.urlopen(url)
-                        html = response.read()
-                        soup = BeautifulSoup(html, "html.parser")
-                        results = soup.find(attrs={'class': 'yt-uix-tile-link'})
-                        ght = ('https://www.youtube.com' + results['href'])
-                        kr1.sendVideoWithURL(msg.to, ght)
-                    except:
-                        kr1.sendText(msg.to, "Could not find it")
-            
-            elif "Yt " in msg.text:
-                if msg.from_ in admin:
-                    query = msg.text.replace("Yt ","")
-                    with requests.session() as s:
-                        s.headers['user-agent'] = 'Mozilla/5.0'
-                        url = 'http://www.youtube.com/results'
-                        params = {'search_query': query}
-                        r = s.get(url, params=params)
-                        soup = BeautifulSoup(r.content, 'html5lib')
-                        hasil = ""
-                        for a in soup.select('.yt-lockup-title > a[title]'):
-                            if '&list=' not in a['href']:
-                                hasil += ''.join((a['title'],'\nUrl : http://www.youtube.com' + a['href'],'\n\n'))
-                        kr1.sendText(msg.to,hasil)
-                        print '[Command] Youtube Search'
-#==========================[Kris]=========================== 
-            elif "Lirik " in msg.text:
-                if msg.from_ in admin:
-                    try:
-                        songname = msg.text.lower().replace("Lirik ","")
-                        params = {'songname': songname}
-                        r = requests.get('http://ide.fdlrcn.com/workspace/yumi-apis/joox?' + urllib.urlencode(params))
-                        data = r.text
-                        data = json.loads(data)
-                        for song in data:
-                            hasil = 'Lyric Lagu ('
-                            hasil += song[0]
-                            hasil += ')\n\n'
-                            hasil += song[5]
-                            kr1.sendText(msg.to, hasil)
-                    except Exception as wak:
-                            kr1.sendText(msg.to, str(wak))
-#==========================[Kris]===========================
-            elif "Wikipedia " in msg.text:
-                if msg.from_ in admin:
-                    try:
-                        wiki = msg.text.lower().replace("Wikipedia ","")
-                        wikipedia.set_lang("id")
-                        pesan="Title ("
-                        pesan+=wikipedia.page(wiki).title
-                        pesan+=")\n\n"
-                        pesan+=wikipedia.summary(wiki, sentences=1)
-                        pesan+="\n"
-                        pesan+=wikipedia.page(wiki).url
-                        kr1.sendText(msg.to, pesan)
-                    except:
-                        try:
-                            pesan="Over Text Limit! Please Click link\n"
-                            pesan+=wikipedia.page(wiki).url
-                            kr1.sendText(msg.to, pesan)
-                        except Exception as e:
-                            kr1.sendText(msg.to, str(e))
-#==========================[Kris]===========================
-            elif "Music " in msg.text:
-                if msg.from_ in admin:
-                    try:
-                        songname = msg.text.lower().replace("Music ","")
-                        params = {'songname': songname}
-                        r = requests.get('http://ide.fdlrcn.com/workspace/yumi-apis/joox?' + urllib.urlencode(params))
-                        data = r.text
-                        data = json.loads(data)
-                        for song in data:
-                            hasil = 'This is Your Music\n'
-                            hasil += 'Judul : ' + song[0]
-                            hasil += '\nDurasi : ' + song[1]
-                            hasil += '\nLink Download : ' + song[4]
-                            kr1.sendText(msg.to, hasil)
-                            kr1.sendText(msg.to, "Please Wait for audio...")
-                            kr1.sendAudioWithURL(msg.to, song[4])
-                    except Exception as njer:
-                        kr1.sendText(msg.to, str(njer))
-#==========================[Kris]===========================
-            elif "Image " in msg.text:
-                if msg.from_ in admin:
-                    search = msg.text.replace("Image ","")
-                    url = 'https://www.google.com/search?espv=2&biw=1366&bih=667&tbm=isch&oq=kuc&aqs=mobile-gws-lite.0.0l5&q=' + search
-                    raw_html = (download_page(url))
-                    items = []
-                    items = items + (_images_get_all_items(raw_html))
-                    path = random.choice(items)
-                    print path
-                    try:
-                        kr1.sendImageWithURL(msg.to,path)
-                    except:
-                        pass           
-#==========================[Kris]===========================
-            elif "Instagram " in msg.text:
-                if msg.from_ in admin:
-                    try:
-                        instagram = msg.text.replace("Instagram ","")
-                        response = requests.get("https://www.instagram.com/"+instagram+"?__a=1")
-                        data = response.json()
-                        namaIG = str(data['user']['full_name'])
-                        bioIG = str(data['user']['biography'])
-                        mediaIG = str(data['user']['media']['count'])
-                        verifIG = str(data['user']['is_verified'])
-                        usernameIG = str(data['user']['username'])
-                        followerIG = str(data['user']['followed_by']['count'])
-                        profileIG = data['user']['profile_pic_url_hd']
-                        privateIG = str(data['user']['is_private'])
-                        followIG = str(data['user']['follows']['count'])
-                        link = "Link: " + "https://www.instagram.com/" + instagram
-                        text = "Name : "+namaIG+"\nUsername : "+usernameIG+"\nBiography : "+bioIG+"\nFollower : "+followerIG+"\nFollowing : "+followIG+"\nPost : "+mediaIG+"\nVerified : "+verifIG+"\nPrivate : "+privateIG+"" "\n" + link
-                        kr1.sendImageWithURL(msg.to, profileIG)
-                        kr1.sendText(msg.to, str(text))
-                    except Exception as e:
-                        kr1.sendText(msg.to, str(e))
-#==========================[Kris]===========================
-            elif "Kelahiran " in msg.text:
-                if msg.from_ in admin:
-                    tanggal = msg.text.replace("Kelahiran ","")
-                    r=requests.get('https://script.google.com/macros/exec?service=AKfycbw7gKzP-WYV2F5mc9RaR7yE3Ve1yN91Tjs91hp_jHSE02dSv9w&nama=ervan&tanggal='+tanggal)
-                    data=r.text
-                    data=json.loads(data)
-                    lahir = data["data"]["lahir"]
-                    usia = data["data"]["usia"]
-                    ultah = data["data"]["ultah"]
-                    zodiak = data["data"]["zodiak"]
-                    kr1.sendText(msg.to,"============ I N F O R M A S I ============\n"+"Date Of Birth : "+lahir+"\nAge : "+usia+"\nUltah : "+ultah+"\nZodiak : "+zodiak+"\n============ I N F O R M A S I ============")
-#==========================[Kris]===========================
-            elif msg.text in ["Kalender"]:
-                timeNow = datetime.now()
-                timeHours = datetime.strftime(timeNow,"(%H:%M)")
-                day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
-                inihari = datetime.today()
-                hr = inihari.strftime('%A')
-                bln = inihari.strftime('%m')
-                for i in range(len(day)):
-                    if hr == day[i]: hasil = hari[i]
-                for k in range(0, len(bulan)):
-                    if bln == str(k): bln = bulan[k-1]
-                rst = hasil + ", " + inihari.strftime('%d') + " - " + bln + " - " + inihari.strftime('%Y') + "\nJam : [ " + inihari.strftime('%H:%M:%S') + " ]"
-                kr1.sendText(msg.to, rst)
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'Bot':
-                random.choice(KAC).sendImageWithURL(msg.to, url123)
-                random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Pembuat Bots ↩↥↥↥↥↥")
-            elif msg.text.lower() == 'ifconfig':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["ifconfig"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO NetStat===")
-            elif msg.text.lower() == 'system':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["df","-h"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO SYSTEM===")
-            elif msg.text.lower() == 'kernel':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["uname","-srvmpio"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO KERNEL===")
-            elif msg.text.lower() == 'cpu':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["cat","/proc/cpuinfo"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO CPU===")
+      
 #==========================[Kris]===========================
             elif "Restart" in msg.text:
                 if msg.from_ in owner:
@@ -5374,47 +5817,7 @@ def bot(op):
                         kr1.sendText(msg.to,"Bye~Bye " + str(ginfo.name) + "\n\nBots Dipaksa Keluar oleh Owner Bots...!!!\nMakasih...!!!")
                     else:
                         kr1.sendText(msg.to,"He declined all invitations")
-#==========================[Kris]=========================== 
-            elif msg.text in ["cab","Cab"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26168676_131451404314083_3952554270011807487_n.jpg?oh=6e90aa78daaf5e06b1078bbf15d5aa0f&oe=5AB9882D"
-                    kr1.sendImageWithURL(msg.to, url)
-                
-            elif msg.text in ["cab1","Cab1"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26165506_131451400980750_8433498092579272217_n.jpg?oh=c85beaa35a6f5babd638edeaac9bccaa&oe=5AF760B2"
-                    kr1.sendImageWithURL(msg.to, url)
-                
-            elif msg.text in ["cab2","Cab2"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26168227_131451417647415_680587542176648285_n.jpg?oh=e714a97fec8d8c1e178ab6c0a3ca39cf&oe=5AC96AD3"
-                    kr1.sendImageWithURL(msg.to, url)
-                
-            elif msg.text in ["cab3","Cab3"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26195387_131462840979606_8781956575640573461_n.jpg?oh=27ba5e875917c20df7dd8916bdd64847&oe=5ABB27F4"
-                    kr1.sendImageWithURL(msg.to, url)
-                
-            elif msg.text in ["cab4","Cab4"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26111928_131462844312939_2544207656543605714_n.jpg?oh=0fac796564e963d8b573826263bbc6c7&oe=5AFA67A8"
-                    kr1.sendImageWithURL(msg.to, url)
-                
-            elif msg.text in ["cab5","Cab5"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26219732_131462837646273_1213898565647052451_n.jpg?oh=c5a8bcce115cdab488bde1b8e981e5dd&oe=5AC3A96E"
-                    kr1.sendImageWithURL(msg.to, url)
-                
-            elif msg.text in ["cab6","Cab6"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26167549_131462897646267_3496884138024907307_n.jpg?oh=edc63b98f790e9bf2cbb57dce7df9b25&oe=5AB0DDF6"
-                    kr1.sendImageWithURL(msg.to, url)
-                
-            elif msg.text in ["cab7","Cab7"]:
-                if msg.from_ in admin:
-                    url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26111931_131462894312934_151942458148573227_n.jpg?oh=2b0473a6caf4446df430180a47ca3355&oe=5AC37B56"
-                    kr1.sendImageWithURL(msg.to, url)
-                
+
             elif msg.text in ["Team","Logo"]:
                 if msg.from_ in admin:
                     url = "https://scontent.fcgk2-1.fna.fbcdn.net/v/t1.0-9/26168676_131451404314083_3952554270011807487_n.jpg?oh=6e90aa78daaf5e06b1078bbf15d5aa0f&oe=5AB9882D"
@@ -5445,28 +5848,10 @@ def bot(op):
                     kr1.sendImageWithURL(msg.to, url6)
                     kr1.sendImageWithURL(msg.to, url7)
 #==========================[Kris]===========================
-            elif "google " in msg.text:
-                if msg.from_ in admin:
-                    a = msg.text.replace("google ","")
-                    b = urllib.quote(a)
-                    kr1.sendText(msg.to,"Sedang Mencari om...")
-                    kr1.sendText(msg.to, "https://www.google.com/" + b)
-                    kr1.sendText(msg.to,"Ketemu om ^")
-#==========================[Kris]===========================
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': "u31ef22df7f538df1d74dc7f756ef1a32"}
                 kr1.sendMessage(msg)
-#==========================[Kris]===========================
-            elif "friendpp: " in msg.text:
-                if msg.from_ in admin:
-                    suf = msg.text.replace('friendpp: ','')
-                    gid = kr1.getAllContactIds()
-                    for i in gid:
-                        h = kr1.getContact(i).displayName
-                        gna = kr1.getContact(i)
-                        if h == suf:
-                            kr1.sendImageWithURL(msg.to,"http://dl.profile.line.naver.jp/"+ gna.pictureStatus)
 #==========================[Kris]===========================
             elif "Checkmid: " in msg.text:
                 if msg.from_ in admin:
@@ -5654,133 +6039,6 @@ def bot(op):
                             except:
                                 creator = "Error"
 #==========================[Kris]===========================
-#            elif "Spamtag @" in msg.text:
-#                _name = msg.text.replace("Spamtag @","")
-#                _nametarget = _name.rstrip(' ')
-#                gs = kr1.getGroup(msg.to)
-#                for g in gs.members:
-#                    if _nametarget == g.displayName:
-#                        xname = g.displayName
-#                        xlen = str(len(xname)+1)
-#                        msg.contentType = 0
-#                        msg.text = "@"+xname+" "
-#                        msg.contentMetadata ={"MENTION":'{"MENTIONEES":[{"S":"0","E":'+json.dumps(xlen)+',"M":'+json.dumps(g.mid)+'}]}','EMTVER':'4'}
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        kr1.sendMessage(msg)
-#                        print "Spamtag Berhasil."
-#==========================[Kris]===========================
-            elif "playstore " in msg.text.lower():
-                if msg.from_ in admin:
-                    tob = msg.text.lower().replace("playstore ","")
-                    kr1.sendText(msg.to,"Sedang Mencari boss...")
-                    kr1.sendText(msg.to,"Title : "+tob+"\nSource : Google Play\nLinknya : https://play.google.com/store/search?q=" + tob)
-                    kr1.sendText(msg.to,"Ketemu boss ^")
-#==========================[Kris]===========================
-            elif 'wikipedia ' in msg.text.lower():
-                if msg.from_ in admin:
-                    try:
-                        wiki = msg.text.lower().replace("wikipedia ","")
-                        wikipedia.set_lang("id")
-                        pesan="Title ("
-                        pesan+=wikipedia.page(wiki).title
-                        pesan+=")\n\n"
-                        pesan+=wikipedia.summary(wiki, sentences=3)
-                        pesan+="\n"
-                        pesan+=wikipedia.page(wiki).url
-                        kr1.sendText(msg.to, pesan)
-                    except:
-                            try:
-                                pesan="Teks nya kepanjangan! ketik link dibawah aja\n"
-                                pesan+=wikipedia.page(wiki).url
-                                kr1.sendText(msg.to, pesan)
-                            except Exception as e:
-                                kr1.sendText(msg.to, str(e))    
-#==========================[Kris]===========================
-            elif "say " in msg.text.lower():
-                if msg.from_ in admin:
-                    say = msg.text.lower().replace("say ","")
-                    lang = 'id'
-                    tts = gTTS(text=say, lang=lang)
-                    tts.save("hasil.mp3")
-                    kr1.sendAudio(msg.to,"hasil.mp3")
-#==========================[Kris]===========================
-            elif msg.text in ["Gift 8","Gift8","gift8"]:
-                if msg.from_ in admin:
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': 'ae3d9165-fab2-4e70-859b-c14a9d4137c4',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '8'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-                    
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '5'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': '696d7046-843b-4ed0-8aac-3113ed6c0733',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '6'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': '8fe8cdab-96f3-4f84-95f1-6d731f0e273e',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '7'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-    #==========================[Kris]===========================
-            elif msg.text in ["Gift","gift"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '5'}
-                msg.text = None
-                kr1.sendMessage(msg)
-
-
-            elif msg.text in ["Gift1"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '696d7046-843b-4ed0-8aac-3113ed6c0733',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '6'}
-                msg.text = None
-                kr1.sendMessage(msg)
-
-            elif msg.text in ["Gift2"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '8fe8cdab-96f3-4f84-95f1-6d731f0e273e',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '7'}
-                msg.text = None
-                kr1.sendMessage(msg)
-
-            elif msg.text in ["Gift3"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'ae3d9165-fab2-4e70-859b-c14a9d4137c4',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '8'}
-                msg.text = None
-                kr1.sendMessage(msg)
-#==========================[Kris]===========================
             elif msg.text in ["Gcreator:inv"]:
                 if msg.from_ in admin:
                     ginfo = kr1.getGroup(msg.to)
@@ -5801,57 +6059,7 @@ def bot(op):
                        kr1.kickoutFromGroup(msg.to,[gCreator])
                        print "success inv gCreator"
                     except:
-                       pass
-#==========================[Kris]===========================
-            elif 'lirik ' in msg.text.lower():
-                if msg.from_ in admin:
-                    try:
-                        songname = msg.text.lower().replace('lirik ','')
-                        params = {'songname': songname}
-                        r = requests.get('http://ide.fdlrcn.com/workspace/yumi-apis/joox?' + urllib.urlencode(params))
-                        data = r.text
-                        data = json.loads(data)
-                        for song in data:
-                            hasil = 'Lyric Lagu ('
-                            hasil += song[0]
-                            hasil += ')\n\n'
-                            hasil += song[5]
-                            kr1.sendText(msg.to, hasil)
-                    except Exception as wak:
-                            kr1.sendText(msg.to, str(wak))       
-#==========================[Kris]===========================
-            elif "Getcover @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Getcover @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr2.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                cu = kr1.channel.getCover(target)
-                                path = str(cu)
-                                kr1.sendImageWithURL(msg.to, path)
-                            except:
-                                pass
-                    print "[Command]dp executed"
-#==========================[Kris]===========================
-            elif "idline: " in msg.text:
-                if msg.from_ in admin:
-                    msgg = msg.text.replace('idline: ','')
-                    conn = kr1.findContactsByUserid(msgg)
-                    if True:
-                        msg.contentType = 13
-                        msg.contentMetadata = {'mid': conn.mid}
-                        kr1.sendText(msg.to,"http://line.me/ti/p/~" + msgg)
-                        kr1.sendMessage(msg)
+                       pass 
 #==========================[Kris]===========================   
             elif "reinvite" in msg.text.split():
                 if msg.from_ in admin:
@@ -5872,59 +6080,7 @@ def bot(op):
                                 kr1.sendText(msg.to,"Error")
                     else:
                         pass
-#==========================[Kris]=========================== 
-            elif msg.text in ["Waktu"]:
-                timeNow = datetime.now()
-                timeHours = datetime.strftime(timeNow,"(%H:%M)")
-                day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
-                inihari = datetime.today()
-                hr = inihari.strftime('%A')
-                bln = inihari.strftime('%m')
-                for i in range(len(day)):
-                    if hr == day[i]: hasil = hari[i]
-                for k in range(0, len(bulan)):
-                    if bln == str(k): bln = bulan[k-1]
-                rst = hasil + ", " + inihari.strftime('%d') + " - " + bln + " - " + inihari.strftime('%Y') + "\nJam : [ " + inihari.strftime('%H:%M:%S') + " ]"
-                kr1.sendText(msg.to, rst)
-#==========================[Kris]=========================== 
-            elif "image " in msg.text:
-                if msg.from_ in admin:
-                    search = msg.text.replace("image ","")
-                    url = 'https://www.google.com/search?espv=2&biw=1366&bih=667&tbm=isch&oq=kuc&aqs=mobile-gws-lite.0.0l5&q=' + search
-                    raw_html = (download_page(url))
-                    items = []
-                    items = items + (_images_get_all_items(raw_html))
-                    path = random.choice(items)
-                    print path
-                    try:
-                        kr1.sendImageWithURL(msg.to,path)
-                    except:
-                        pass
-#==========================[Kris]===========================
-            elif 'instagram ' in msg.text.lower():
-                if msg.from_ in admin:
-                    try:
-                        instagram = msg.text.lower().replace("instagram ","")
-                        html = requests.get('https://www.instagram.com/' + instagram + '/?')
-                        soup = BeautifulSoup(html.text, 'html5lib')
-                        data = soup.find_all('meta', attrs={'property':'og:description'})
-                        text = data[0].get('content').split()
-                        data1 = soup.find_all('meta', attrs={'property':'og:image'})
-                        text1 = data1[0].get('content').split()
-                        user = "Name: " + text[-2] + "\n"
-                        user1 = "Username: " + text[-1] + "\n"
-                        followers = "Followers: " + text[0] + "\n"
-                        following = "Following: " + text[2] + "\n"
-                        post = "Post: " + text[4] + "\n"
-                        link = "Link: " + "https://www.instagram.com/" + instagram
-                        detail = "**INSTAGRAM INFO USER**\n"
-                        details = "\n**INSTAGRAM INFO USER**"
-                        kr1.sendText(msg.to, detail + user + user1 + followers + following + post + link + details)
-                        kr1.sendImageWithURL(msg.to, text1[0])
-                    except Exception as njer:
-                    	kr1.sendText(msg.to, str(njer))    
+
 #==========================[Kris]===========================	
             elif msg.text in ["aah","Aah"]:
                 if msg.from_ in owner:
@@ -6268,34 +6424,11 @@ def bot(op):
                     kr1.createGroup("recover", mi_d)
                     kr1.sendText(msg.to,"Success recover")
 #==========================[Kris]===========================
-            elif "Kr spin" in msg.text:
-                if msg.from_ in owner:
-                    thisgroup = kr1.getGroups([msg.to])
-                    Mids = [contact.mid for contact in thisgroup[0].members]
-                    mi_d = Mids[:33]
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.createGroup("Nah kan", mi_d)
-                    kr1.sendText(msg.to,"Success...!!!!")
-#==========================[Kris]===========================
             elif msg.text in ["Remove all chat"]:
                 if msg.from_ in owner:
                     kr1.removeAllMessages(op.param2)
                     kr1.removeAllMessages(op.param2)
                     kr1.sendText(msg.to,"Removed all chat Finish")
-#==========================[Kris]===========================
-            elif msg.text in ["Kr muach"]:
-                if msg.from_ in owner:
-                    msg.contentType = 13
-                    msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
-                    kr1.sendMessage(msg)
 #==========================[Kris]===========================
         if op.type == 17:
             if op.param2 not in admin:
@@ -6366,45 +6499,8 @@ def bot(op):
                     G.preventJoinByTicket = True
                     kr1.kickoutFromGroup(op.param1,[op.param2])
                     kr1.updateGroup(G)
-        if op.type == 17:
-           if wait["Wc"] == True:
-               if op.param2 in Bots:
-                 return
-               ginfo = kr1.getGroup(op.param1)
-               kr1.sendText(op.param1, "╔═════════════\n║Selamat Datang Di  " + str(ginfo.name) + "\n╠═════════════\n" + "║Founder =>>> " + str(ginfo.name) + " :\n║" + ginfo.creator.displayName + "\n╠═════════════\n" + "║😊Semoga Betah Kak 😘 \n╚═════════════")
-               print "MEMBER HAS JOIN THE GROUP"
-        if op.type == 17:
-            if wait["Wc2"] == True:
-                if op.param2 in Bots:
-                    return
-                G = kr1.getGroup(op.param1)
-                h = kr1.getContact(op.param2)
-                kr1.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net/" + h.pictureStatus)
-                print "MEMBER HAS JOIN THE GROUP"
-        if op.type == 15:
-            if wait["Lv"] == True:
-                if op.param2 in Bots:
-                    return
-                kr1.sendText(op.param1, "╔═════════════\n║Baper Tuh Orang :v \n║Semoga Bahagia ya 😊 \n╚═════════════")
-                print "MEMBER HAS LEFT THE GROUP"
+       
 #------------------------------------------------------------------------------#
-
-        if op.type == 55:
-            try:
-                if op.param1 in wait2['readPoint']:
-           
-                    if op.param2 in wait2['readMember'][op.param1]:
-                        pass
-                    else:
-                        wait2['readMember'][op.param1] += op.param2
-                    wait2['ROM'][op.param1][op.param2] = op.param2
-                    with open('sider.json', 'w') as fp:
-                     json.dump(wait2, fp, sort_keys=True, indent=4)
-                else:
-                    pass
-            except:
-                pass           
-            
         
         if op.type == 59:
             print op
@@ -6412,58 +6508,6 @@ def bot(op):
     
     except Exception as error:
         print error
-
-def autolike():
-    count = 1
-    while True:
-        try:
-           for posts in kr1.activity(1)["result"]["posts"]:
-             if posts["postInfo"]["liked"] is False:
-                if wait['likeOn'] == True:
-                   kr1.like(posts["userInfo"]["writerMid"], posts["postInfo"]["postId"], 1001)
-                   print "Like"
-                   if wait["commentOn"] == True:
-                      if posts["userInfo"]["writerMid"] in wait["commentBlack"]:
-                         pass
-                      else:
-                          kr1.comment(posts["userInfo"]["writerMid"],posts["postInfo"]["postId"],wait["comment"])
-        except:
-            count += 1
-            if(count == 50):
-                sys.exit(0)
-            else:
-                pass
-thread2 = threading.Thread(target=autolike)
-thread2.daemon = True
-thread2.start()
-
-def likefriend():
-    for zx in range(0,20):
-      hasil = kr1.activity(limit=20)
-      if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
-        try:
-          kr1.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1001)
-          kr1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea «««")
-          print "Like"
-        except:
-          pass
-      else:
-          print "Already Liked Om"
-time.sleep(0.60)
-
-def likeme():
-    for zx in range(0,20):
-        hasil = kr1.activity(limit=20)
-        if hasil['result']['posts'][zx]['postInfo']['liked'] == False:
-            if hasil['result']['posts'][zx]['userInfo']['mid'] in mid:
-                try:
-                    kr1.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-                    kr1.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea «««")
-                    print "Like"
-                except:
-                    pass
-            else:
-                print "Status Sudah di Like Om"
 
 
 while True:
