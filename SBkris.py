@@ -14,7 +14,7 @@ from gtts import gTTS
 
 kr1 = KRIS.LINE()
 #kr1.login(qr=True)
-kr1.login(token="Epu3nGZUXkIBbAc8pI63.Pxo9EmeCWa93nKxrUdTCyW.MlYjIOSDAN103AmBPVd2fSOXI5xYw4JcDf7crugLDdw=") #1 => akun utama
+kr1.login(token="isi token disini") #1 => akun utama
 kr1.loginResult()
 
 #kr2 = KRIS.LINE()
@@ -4141,6 +4141,7 @@ def bot(op):
                 if (wait['message'] in [""," ","\n",None]):
                     pass
                 else:
+                    kr1.sendText(op.param1.str(wait['message']))
         
         if op.type == 17:
            if wait["Wc"] == True:
