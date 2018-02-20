@@ -4,13 +4,13 @@ import KRIS
 from KRIS.lib.curve.ttypes import *
 from datetime import datetime
 import time, random, sys, ast, re, os, io, json, subprocess, threading, string, codecs, requests, ctypes, urllib, urllib2, urllib3, wikipedia, tempfile
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 from urllib import urlopen
 import requests
 from io import StringIO
 from threading import Thread
-from gtts import gTTS
-from googletrans import Translator
+#from gtts import gTTS
+#from googletrans import Translator
 
 kr1 = KRIS.LINE()
 #kr1.login(qr=True)
@@ -271,9 +271,9 @@ satpam=[mid11,mid12]
 owner=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
 admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","uece14c5ae46691f48f03c4fd331c3fd8","uc70b2f7f85d13c96e0f28ded3b3b13d6","ua4f5b3c2ac79b488c70d08112a3097c5","u8a8c4e247a92f3a29c709abd6e2ad30d","u60694eabf6ae04073739b4c95777d04a","ud3065a5bd9cf0d6961d9c046a124761c","uc545f6498513e4c8bc7004920e037ff3","uc06a9b75c93e5b4b726d9d3c9889b699","u9d4b18194ce5b48d86fa27e5fac1d606","u183bff92d294ed24000efe36e8b2c474","u241b9b83d51b93c77c982e8330139cdd","u15d0c7b52ea7731e5245531c2f543d50","u28c833c6d623e47cf130cb32457c6b3b","u0e881fcbda6a0d82974a775f8015f4fe","ue19cf2484197083712939e81005b57a0","u425365a1a944365b986e3034418eee30","ue0afa260c2e038d74587911771a48dc4","udd468875ae063c026e58c4a7a82b4782","ua8b707e4382fc47b4df318c7c9aa1f3e","u7f94f517d3f2d97718f4f49258a7ef7c","ud55745480bb2c5665e6a21df2a68155e","u6908b4803bf3e267cf659ddda91d5fa4","u60335d94c7a3ca3a3c3685f515724145","uc92d7e39d7259174dba7d8028c7ef4b2","uc1ba312554b4ee025039f54ff44c7c7f","ud74066bb0bc042125f6da564f576d683","u7b8ce44a6f9d630388280e817775111f","uf1850996231087975161942c551f3ac9","u412728dbaf91158d3787b7de2aaf5be8","uaa4d57483fe9bc48d6b904dac88d8ef5","u43ee16d1d2a4a38f894f41aabb7b6714","u51fdb21d7eaa491cd792d5316d8ae416",mid,mid2,mid3,mid4,mid5,mid6,mid7,mid8,mid9,mid10,mid11,mid12]##Krisna,kris,
 wait = {
-    'detectMention':False, 
-    'potoMention':False,
-    'kickMention':False,
+    #'detectMention':False, 
+    #'potoMention':False,
+    #'kickMention':False,
     'invite':{},
     'invite2':{},
     'spam':{},
@@ -282,9 +282,9 @@ wait = {
     'autoCancel':{"on":False,"members":5},
     'leaveRoom':True,
     'autoAdd':False,
-    'message':"""Thx for add\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆""",
+    #'message':"""Thx for add\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆""",
     "lang":"JP",
-    "comment":"👉ąµţ๏ℓɨЌ€ By C-A_Bot😊\n\n☆º°˚˚✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰º°˚˚☆（＾ω＾）\nąµţ๏ℓɨЌ€ by Kris ⭐👈 »»» http://line.me/ti/p/~krissthea «««",
+    #"comment":"",
     "commentOn":False,
     "wblack":False,
     "dblack":False,
@@ -588,99 +588,99 @@ def sendAudioWithURL(self, to_, url):
          self.sendAudio(to_, path)
       except Exception as e:
             raise e
-def sendAudioWithURL(self, to_, url):
-      path = 'pythonLiness.data'
-      r = requests.get(url, stream=True)
-      if r.status_code == 200:
-         with open(path, 'w') as f:
-            shutil.copyfileobj(r.raw, f)
-      else:
-         raise Exception('Download Audio failure.')
-      try:
-         self.sendAudio(to_, path)
-      except Exception as e:
-         raise e
+#def sendAudioWithURL(self, to_, url):
+#      path = 'pythonLiness.data'
+#      r = requests.get(url, stream=True)
+#      if r.status_code == 200:
+#         with open(path, 'w') as f:
+#            shutil.copyfileobj(r.raw, f)
+#      else:
+#         raise Exception('Download Audio failure.')
+#      try:
+#         self.sendAudio(to_, path)
+#      except Exception as e:
+#         raise e
 
-def sendVoice(self, to_, path):
-        M = Message(to=to_, text=None, contentType = 3)
-        M.contentPreview = None
-        M_id = self._kr1.sendMessage(0,M).id
-        files = {
-            'file': open(path, 'rb'),
-        }
-        params = {
-            'name': 'voice_message',
-            'oid': M_id,
-            'size': len(open(path, 'rb').read()),
-            'type': 'audio',
-            'ver': '1.0',
-        }
-        data = {
-            'params': json.dumps(params)
-        }
-        r = self.post_content('https://os.line.naver.jp/talk/m/upload.nhn', data=data, files=files)
-        if r.status_code != 201:
-            raise Exception('Upload voice failure.')
-        return True
+#def sendVoice(self, to_, path):
+ #       M = Message(to=to_, text=None, contentType = 3)
+ #       M.contentPreview = None
+ #       M_id = self._kr1.sendMessage(0,M).id
+ #       files = {
+ #           'file': open(path, 'rb'),
+ #       }
+ #       params = {
+ #           'name': 'voice_message',
+ #           'oid': M_id,
+ #           'size': len(open(path, 'rb').read()),
+ #           'type': 'audio',
+ #           'ver': '1.0',
+#        }
+#        data = {
+#            'params': json.dumps(params)
+#        }
+#        r = self.post_content('https://os.line.naver.jp/talk/m/upload.nhn', data=data, files=files)
+#        if r.status_code != 201:
+#            raise Exception('Upload voice failure.')
+#        return True
 
-def sendVideoWithURL(self, to_, url):
-      path = 'pythonLines.data'
-      r = requests.get(url, stream=True)
-      if r.status_code == 200:
-         with open(path, 'w') as f:
-            shutil.copyfileobj(r.raw, f)
-      else:
-         raise Exception('Download Audio failure.')
-      try:
-         self.sendVideo(to_, path)
-      except Exception as e:
-         raise e
-
-def mention(to,nama):
-    aa = ""
-    bb = ""
-    strt = int(12)
-    akh = int(12)
-    nm = nama
-    #print nm
-    for mm in nm:
-        akh = akh + 2
-        aa += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(mm)+"},"""
-        strt = strt + 6
-        akh = akh + 4
-        bb += "► @c \n"
-    aa = (aa[:int(len(aa)-1)])
-    msg = Message()
-    msg.to = to
-    msg.text = "「Mention」\n"+bb
-    msg.contentMetadata = {'MENTION':'{"MENTIONEES":['+aa+']}','EMTVER':'4'}
-    #print msg
-    try:
-         kr1.sendMessage(msg)
-    except Exception as error:
-        print error
-def summon(to, nama):
-    aa = ""
-    bb = ""
-    strt = int(14)
-    akh = int(14)
-    nm = nama
-    for mm in nm:
-      akh = akh + 2
-      aa += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(mm)+"},"""
-      strt = strt + 6
-      akh = akh + 4
-      bb += "\xe2\x95\xa0 @x \n"
-    aa = (aa[:int(len(aa)-1)])
-    msg = Message()
-    msg.to = to
-    msg.text = "\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\n"+bb+"\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90"
-    msg.contentMetadata ={"MENTION":'{"MENTIONEES":['+aa+']}','EMTVER':'4'}
-    print "[Command] Tag All"
-    try:
-       kr1.sendMessage(msg)
-    except Exception as error:
-       print error
+#def sendVideoWithURL(self, to_, url):
+#      path = 'pythonLines.data'
+#      r = requests.get(url, stream=True)
+#      if r.status_code == 200:
+#         with open(path, 'w') as f:
+#            shutil.copyfileobj(r.raw, f)
+#      else:
+#         raise Exception('Download Audio failure.')
+#      try:
+#         self.sendVideo(to_, path)
+#      except Exception as e:
+#         raise e
+#
+#def mention(to,nama):
+#    aa = ""
+#    bb = ""
+#    strt = int(12)
+#    akh = int(12)
+#    nm = nama
+#    #print nm
+#    for mm in nm:
+#        akh = akh + 2
+#        aa += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(mm)+"},"""
+#        strt = strt + 6
+#        akh = akh + 4
+#        bb += "► @c \n"
+#    aa = (aa[:int(len(aa)-1)])
+#    msg = Message()
+#    msg.to = to
+#    msg.text = "「Mention」\n"+bb
+#    msg.contentMetadata = {'MENTION':'{"MENTIONEES":['+aa+']}','EMTVER':'4'}
+#    #print msg
+#    try:
+#         kr1.sendMessage(msg)
+#    except Exception as error:
+#        print error
+#def summon(to, nama):
+#    aa = ""
+#    bb = ""
+#    strt = int(14)
+#    akh = int(14)
+#    nm = nama
+#    for mm in nm:
+#      akh = akh + 2
+#      aa += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(mm)+"},"""
+#      strt = strt + 6
+#      akh = akh + 4
+#      bb += "\xe2\x95\xa0 @x \n"
+#    aa = (aa[:int(len(aa)-1)])
+#    msg = Message()
+#    msg.to = to
+#    msg.text = "\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\n"+bb+"\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90"
+#    msg.contentMetadata ={"MENTION":'{"MENTIONEES":['+aa+']}','EMTVER':'4'}
+#    print "[Command] Tag All"
+#    try:
+#       kr1.sendMessage(msg)
+#    except Exception as error:
+#       print error
 
 def removeAllMessages(self, lastMessageId):
      return self._kr1.removeAllMessages(0, lastMessageId)
@@ -725,7 +725,7 @@ def bot(op):
                     pass
                 else:
                     random.choice(KAC).cancelGroupInvitation(op.param1,[op.param3])
-                    random.choice(KAC).sendText(op.param1,"Protectnya aktif boss, Hubungi owner Bots =>line://ti/p/~krissthea for [Pro off] (-_-)")
+                    random.choice(KAC).sendText(op.param1,"Protectnya aktif boss,(-_-)")
 #==========================[Kris]===========================
         if op.type == 17:
            if wait["Protectguest"] == True:
@@ -1569,49 +1569,6 @@ def bot(op):
 #==========================[Kris]===========================
         if op.type == 26:
             msg = op.message
-
-            if "MENTION" in msg.contentMetadata.keys() != None:
-                if wait['detectMention'] == True:
-                    contact = kr1.getContact(msg.from_)
-                    cName = contact.displayName
-                    balas = [cName + "Kangenkah sampai ngetag mulu?",cName + " nah mending pc aja klo penting..!", "kenapa, ", cName + " kangen ya?","kangen bilang, gak usah ngetag mulu, " + cName, "sekali lagi ngetag, bayar ya..!!! " + cName, "Tuh kan" + cName + "ngetag lagi, mojok aja yux...!!!"]
-                    ret_ = "[Auto Respon] " + random.choice(balas)
-                    name = re.findall(r'@(\w+)', msg.text)
-                    mention = ast.literal_eval(msg.contentMetadata["MENTION"])
-                    mentionees = mention['MENTIONEES']
-                    for mention in mentionees:
-                        if mention['M'] in Bots:
-                            kr1.sendText(msg.to,ret_)
-                            break            
-#==========================[Kris]===========================
-            if "MENTION" in msg.contentMetadata.keys() != None:
-                if wait['potoMention'] == True:
-                    contact = kr1.getContact(msg.from_)
-                    cName = contact.pictureStatus
-                    balas = ["http://dl.profile.line-cdn.net/" + cName]
-                    ret_ = random.choice(balas)
-                    mention = ast.literal_eval(msg.contentMetadata["MENTION"])
-                    mentionees = mention["MENTIONEES"]
-                    for mention in mentionees:
-                        if mention["M"] in Bots:
-                            kr1.sendImageWithURL(msg.to,ret_)
-                            break  
-#==========================[Kris]===========================
-            if "MENTION" in msg.contentMetadata.keys() != None:
-                if wait['kickMention'] == True:
-                    contact = kr1.getContact(msg.from_)
-                    cName = contact.displayName
-                    balas = [cName + "Kangenkah sampai ngetag mulu?",cName + " nah mending pc aja klo penting..!", "kenapa, ", cName + " kangen ya?","kangen bilang, gak usah ngetag mulu, " + cName, "sekali lagi ngetag, bayar ya..!!! " + cName, "Tuh kan" + cName + "ngetag lagi, mojok aja yux...!!!"]
-                    ret_ = "[Auto Respon] " + random.choice(balas)
-                    name = re.findall(r'@(\w+)', msg.text)
-                    mention = ast.literal_eval(msg.contentMetadata["MENTION"])
-                    mentionees = mention['MENTIONEES']
-                    for mention in mentionees:
-                        if mention['M'] in Bots:
-                            kr1.sendText(msg.to,ret_)
-                            kr1.kickoutFromGroup(msg.to,[msg.from_])
-                            kr1.inviteIntoGroup(msg.to, admin)
-                            break
 #==========================[Kris]===========================
             if msg.contentType == 13:
                 if wait['invite'] == True:
@@ -1884,8 +1841,8 @@ def bot(op):
                     msg.contentType = 13
                     msg.contentMetadata = {'mid': mid10}
                     kr10.sendMessage(msg)
-                    random.choice(KAC).sendImageWithURL(msg.to, url123)
-                    random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Owner Bots ↩↥↥↥↥↥")
+                   # random.choice(KAC).sendImageWithURL(msg.to, url123)
+                   # random.choice(KAC).sendText(msg.to,"↥↥↥↥↥↪ Owner Bots ↩↥↥↥↥↥")
 #==========================[Kris]===========================
             elif msg.text.lower() == 'mode on':
                 if msg.from_ in admin:
@@ -2067,256 +2024,32 @@ def bot(op):
                 kr1.sendMessage(msg)
                 kr1.sendText(msg.to,'❂➣ Creator yang manis kalem  􀜁􀄯􏿿')
 #==========================[Kris]===========================
-            elif msg.text.lower() == 'autoadd on':
-                if msg.from_ in admin:
-                    if wait['autoAdd'] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Auto add set to on")
-                        else:
-                            kr1.sendText(msg.to,"Auto add already on")
-                    else:
-                        wait['autoAdd'] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Auto add set to on")
-                        else:
-                            kr1.sendText(msg.to,"Auto add already on")
-            elif msg.text.lower() == 'autoadd off':
-                if msg.from_ in admin:
-                    if wait['autoAdd'] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Auto add set to off")
-                        else:
-                            kr1.sendText(msg.to,"Auto add already off")
-                    else:
-                        wait['autoAdd'] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"Auto add set to off")
-                        else:
-                            kr1.sendText(msg.to,"Auto add already off")
-#==========================[Kris]===========================
-            elif "Spamcontact @" in msg.text:
-                if msg.from_ in owner:
-                    _name = msg.text.replace("Spamcontact @","")
-                    _nametarget = _name.rstrip(' ')
-                    gs = kr1.getGroup(msg.to)
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            kr1.sendText(msg.to, "Spam di Proses....!!!")
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr1.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr2.sendText(g.mid,'spam')
-                            kr1.sendText(msg.to, "Selesai di Spam")
-                            kr2.sendText(msg.to, "Selesai di Spam")
-                            print " Spammed !"
+ #           elif msg.text.lower() == 'autoadd on':
+#                if msg.from_ in admin:
+#                    if wait['autoAdd'] == True:
+#                        if wait["lang"] == "JP":
+#                            kr1.sendText(msg.to,"Auto add set to on")
+#                        else:
+#                            kr1.sendText(msg.to,"Auto add already on")
+#                    else:
+#                        wait['autoAdd'] = True
+#                        if wait["lang"] == "JP":
+#                            kr1.sendText(msg.to,"Auto add set to on")
+#                        else:
+#                            kr1.sendText(msg.to,"Auto add already on")
+#            elif msg.text.lower() == 'autoadd off':
+#                if msg.from_ in admin:
+#                    if wait['autoAdd'] == False:
+#                        if wait["lang"] == "JP":
+#                            kr1.sendText(msg.to,"Auto add set to off")
+#                        else:
+#                            kr1.sendText(msg.to,"Auto add already off")
+#                    else:
+#                        wait['autoAdd'] = False
+#                        if wait["lang"] == "JP":
+#                            kr1.sendText(msg.to,"Auto add set to off")
+#                        else:
+#                            kr1.sendText(msg.to,"Auto add already off")
 #==========================[Kris]===========================
             elif msg.text in ["Invite"]:
                 if msg.from_ in admin:
@@ -2332,36 +2065,6 @@ def bot(op):
                 if msg.from_ in admin:
                     wait["winvite"] = True
                     kr2.sendText(msg.to,"Kirim Contact")
-#==========================[Kris]===========================
-            elif msg.text in ["Tag on","tag on"]:
-                if msg.from_ in admin:
-                    wait['detectMention'] = True
-                    kr1.sendText(msg.to,"Auto respon tag On")
-#==========================[Kris]===========================
-            elif msg.text in ["Tag off","tag off"]:
-                if msg.from_ in admin:
-                    wait['detectMention'] = False
-                    kr1.sendText(msg.to,"Auto respon tag Off")
-#==========================[Kris]===========================
-            elif msg.text in ["Respoto on","respoto on"]:
-                if msg.from_ in admin:
-                    wait['potoMention'] = True
-                    kr1.sendText(msg.to,"Auto respon tag poto On")
-#==========================[Kris]===========================   
-            elif msg.text in ["Respoto off","respoto off"]:
-                if msg.from_ in admin:
-                    wait['potoMention'] = False
-                    kr1.sendText(msg.to,"Auto respon tag poto Off")
-#==========================[Kris]===========================
-            elif msg.text in ["Tag2 on","tag2 on"]:
-                if msg.from_ in admin:
-                    wait['kickMention'] = True
-                    kr1.sendText(msg.to,"Auto Kick tag ON")
-#==========================[Kris]=========================== 
-            elif msg.text in ["Tag2 off","tag2 off"]:
-                if msg.from_ in admin:
-                    wait['kickMention'] = False
-                    kr1.sendText(msg.to,"Auto Kick tag OFF")
 #==========================[Kris]===========================
             elif "Time" in msg.text:
                 if msg.toType == 2:
@@ -2416,63 +2119,6 @@ def bot(op):
 #                        if wait["lang"] == "JP":
 #                            kr1.sendText(msg.to,"already oғғ")
 #==========================[Kris]===========================
-            elif msg.text in ["Sambut on","sambut on"]:
-                if msg.from_ in admin:
-                    if wait["Wc"] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn on")
-                    else:
-                        wait["Wc"] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already on")
-            elif msg.text in ["Sambut off","sambut off"]:
-                if msg.from_ in admin:
-                    if wait["Wc"] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn oғғ")
-                    else:
-                        wait["Wc"] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already oғғ")
-#==========================[Kris]===========================
-            elif msg.text in ["Sambut2 on","sambut2 on"]:
-                if msg.from_ in admin:
-                    if wait["Wc2"] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn poto on")
-                    else:
-                        wait["Wc2"] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already on")
-            elif msg.text in ["Sambut2 off","sambut2 off"]:
-                if msg.from_ in admin:
-                    if wait["Wc2"] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg joιn poto oғғ")
-                    else:
-                        wait["Wc2"] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already oғғ")
-#==========================[Kris]===========================
-            elif msg.text in ["Pergi on","pergi on"]:
-                if msg.from_ in admin:
-                    if wait["Lv"] == True:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg leave on")
-                    else:
-                        wait["Lv"] = True
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already on")
-            elif msg.text in ["Pergi off","pergi off"]:
-                if msg.from_ in admin:
-                    if wait["Lv"] == False:
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"noтιғ yg leave oғғ")
-                    else:
-                        wait["Lv"] = False
-                        if wait["lang"] == "JP":
-                            kr1.sendText(msg.to,"already oғғ")
-#==========================[Kris]===========================
             elif "Dadas" in msg.text:
                 if msg.from_ in owner:
                     if msg.toType == 2:
@@ -2509,12 +2155,6 @@ def bot(op):
                                             kr1.sendText(msg.to,"Group Bersih")
                                             kr2.sendText(msg.to,"Group Bersih")
 #==========================[Kris]===========================
-            elif msg.text in ["Salam1"]:
-                kr1.sendText(msg.to,"السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
-                kr2.sendText(msg.to,"Assalamu'alaikum")
-            elif msg.text in ["Salam2"]:
-                kr1.sendText(msg.to,"وَعَلَيْكُمْ السَّلاَمُرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
-                kr2.sendText(msg.to,"Wa'alaikumsallam.Wr,Wb")
             elif msg.text in ["Salam3"]:
                 if msg.from_ in owner:
                     kr1.sendText(msg.to,"السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
@@ -3121,7 +2761,7 @@ def bot(op):
                         except:
                             pass
 #==========================[Kris]===========================
-            elif msg.text in ["Kr bye"]:#keluar bot kecuali bot induk
+            elif msg.text in [".bye"]:#keluar bot kecuali bot induk
                 if msg.from_ in owner:
                     if msg.toType == 2:
                         ginfo = kr1.getGroup(msg.to)
@@ -3149,80 +2789,6 @@ def bot(op):
                         except:
                             pass
 #==========================[Kris]===========================
-            elif "cipok" == msg.text.lower():
-                if msg.from_ in admin:
-                    group = kr1.getGroup(msg.to)
-                    nama = [contact.mid for contact in group.members]
-                    nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
-                    if jml <= 100:
-                        summon(msg.to, nama)
-                    if jml > 100 and jml < 200:
-                        for i in range(0, 99):
-                            nm1 += [nama[i]]
-                        summon(msg.to, nm1)
-                        for j in range(100, len(nama)-1):
-                            nm2 += [nama[j]]
-                        summon(msg.to, nm2)
-                    if jml > 200  and jml < 500:
-                        for i in range(0, 99):
-                            nm1 += [nama[i]]
-                        summon(msg.to, nm1)
-                        for j in range(100, 199):
-                            nm2 += [nama[j]]
-                        summon(msg.to, nm2)
-                        for k in range(200, 299):
-                            nm3 += [nama[k]]
-                        summon(msg.to, nm3)
-                        for l in range(300, 399):
-                            nm4 += [nama[l]]
-                        summon(msg.to, nm4)
-                        for m in range(400, len(nama)-1):
-                            nm5 += [nama[m]]
-                        summon(msg.to, nm5)
-                    if jml > 500:
-                         print "Terlalu Banyak Men 500+"
-                    cnt = Message()
-                    cnt.text = "Jumlah:\n" + str(jml) +  " Members"
-                    cnt.to = msg.to
-                    kr1.sendMessage(cnt)
-#==========================[Kris]===========================
-            elif "crot" == msg.text.lower():
-                if msg.from_ in admin:
-                    group = kr1.getGroup(msg.to)
-                    nama = [contact.mid for contact in group.members]
-                    nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
-                    if jml <= 100:
-                        summon(msg.to, nama)
-                    if jml > 100 and jml < 200:
-                        for i in range(0, 99):
-                            nm1 += [nama[i]]
-                        summon(msg.to, nm1)
-                        for j in range(100, len(nama)-1):
-                            nm2 += [nama[j]]
-                        summon(msg.to, nm2)
-                    if jml > 200  and jml < 500:
-                        for i in range(0, 99):
-                            nm1 += [nama[i]]
-                        summon(msg.to, nm1)
-                        for j in range(100, 199):
-                            nm2 += [nama[j]]
-                        summon(msg.to, nm2)
-                        for k in range(200, 299):
-                            nm3 += [nama[k]]
-                        summon(msg.to, nm3)
-                        for l in range(300, 399):
-                            nm4 += [nama[l]]
-                        summon(msg.to, nm4)
-                        for m in range(400, len(nama)-1):
-                            nm5 += [nama[m]]
-                        summon(msg.to, nm5)
-                    if jml > 500:
-                         print "Terlalu Banyak Men 500+"
-                    cnt = Message()
-                    cnt.text = "Jumlah:\n" + str(jml) +  " Members"
-                    cnt.to = msg.to
-                    kr1.sendMessage(cnt)
-#==========================[Kris]===========================
             elif "Gbroadcast: " in msg.text:
                 if msg.from_ in owner:
                     bc = msg.text.replace("Gbroadcast: ","")
@@ -3236,59 +2802,6 @@ def bot(op):
                     gid = kr1.getAllContactIds()
                     for i in gid:
                         kr1.sendText(i, bc)
-#==========================[Kris]===========================
-            elif "Spamtag @" in msg.text:
-                if msg.from_ in admin:
-                    _name = msg.text.replace("Spamtag @","")
-                    _nametarget = _name.rstrip(' ')
-                    gs = kr1.getGroup(msg.to)
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            xname = g.displayName
-                            xlen = str(len(xname)+1)
-                            msg.contentType = 0
-                            msg.text = "@"+xname+" "
-                            msg.contentMetadata ={"MENTION":'{"MENTIONEES":[{"S":"0","E":'+json.dumps(xlen)+',"M":'+json.dumps(g.mid)+'}]}','EMTVER':'4'}
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                        else:
-                            pass
-#==========================[Kris]=========================== 
-            elif "Spam " in msg.text:
-                if msg.from_ in admin:
-                    txt = msg.text.split(" ")
-                    jmlh = int(txt[2])
-                    teks = msg.text.replace("Spam "+str(txt[1])+" "+str(jmlh)+" ","")
-                    tulisan = jmlh * (teks+"\n")
-                    if txt[1] == "on":
-                        if jmlh <= 100000:
-                           for x in range(jmlh):
-                               kr1.sendText(msg.to, teks)
-                        else:
-                           kr1.sendText(msg.to, "Out of Range!")
-                    elif txt[1] == "off":
-                        if jmlh <= 100000:
-                            kr1.sendText(msg.to, tulisan)
-                        else:
-                            kr1.sendText(msg.to, "Out Of Range!")
 #==========================[Kris]===========================  
             elif msg.text.lower() == 'mymid':
                 if msg.from_ in admin:
@@ -3545,210 +3058,20 @@ def bot(op):
                     cu = kr1.channel.getCover(mid)          
                     path = str(cu)
                     kr1.sendText(msg.to, path)
-#==========================[Kris]===========================
-            elif "Getmid @" in msg.text:
-                if msg.from_ in admin:
-                    _name = msg.text.replace("Getmid @","")
-                    _nametarget = _name.rstrip(' ')
-                    gs = kr1.getGroup(msg.to)
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            kr1.sendText(msg.to, g.mid)
-                        else:
-                            pass
-            elif "Getinfo" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    try:
-                        kr1.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nMid :\n" + contact.mid + "\n\nBio :\n" + contact.statusMessage + "\n\nProfile Picture :\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n\nHeader :\n" + str(cu))
-                    except:
-                        kr1.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nMid :\n" + contact.mid + "\n\nBio :\n" + contact.statusMessage + "\n\nProfile Picture :\n" + str(cu))
-            elif "Getbio" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    try:
-                        kr1.sendText(msg.to, "===[StatusMessage]===\n" + contact.statusMessage)
-                    except:
-                        kr1.sendText(msg.to, "===[StatusMessage]===\n" + contact.statusMessage)
-            elif "Getname" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    try:
-                        kr1.sendText(msg.to, "===[DisplayName]===\n" + contact.displayName)
-                    except:
-                        kr1.sendText(msg.to, "===[DisplayName]===\n" + contact.displayName)
-            elif "Getprofile" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]
-                    contact = kr1.getContact(key1)
-                    cu = kr1.channel.getCover(key1)
-                    path = str(cu)
-                    image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                    try:
-                        kr1.sendText(msg.to,"Nama :\n" + contact.displayName + "\n\nBio :\n" + contact.statusMessage)
-                        kr1.sendText(msg.to,"Profile Picture " + contact.displayName)
-                        kr1.sendImageWithURL(msg.to,image)
-                        kr1.sendText(msg.to,"Cover " + contact.displayName)
-                        kr1.sendImageWithURL(msg.to,path)
-                    except:
-                        pass
-            elif "Getcontact" in msg.text:
-                if msg.from_ in admin:
-                    key = eval(msg.contentMetadata["MENTION"])
-                    key1 = key["MENTIONEES"][0]["M"]                
-                    mmid = kr1.getContact(key1)
-                    msg.contentType = 13
-                    msg.contentMetadata = {"mid": key1}
-                    kr1.sendMessage(msg)
-            elif "Getpict @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Getpict @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                                kr1.sendImageWithURL(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]dp executed"
-            elif "Getvid @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Getvid @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                                kr1.sendVideoWithURL(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]dp executed"
-            elif "Picturl @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Picturl @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                path = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
-                                kr1.sendText(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]dp executed"
-            elif "Getcover @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]cover executing"
-                    _name = msg.text.replace("Getcover @","")    
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                cu = kr1.channel.getCover(target)          
-                                path = str(cu)
-                                kr1.sendImageWithURL(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]cover executed"
-            elif "Coverurl @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]cover executing"
-                    _name = msg.text.replace("Coverurl @","")    
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr1.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                cu = kr1.channel.getCover(target)          
-                                path = str(cu)
-                                kr1.sendText(msg.to, path)
-                            except Exception as e:
-                                raise e
-                    print "[Command]cover executed"
-            elif "Getgrup image" in msg.text:
-                if msg.from_ in admin:
-                    group = kr1.getGroup(msg.to)
-                    path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                    kr1.sendImageWithURL(msg.to,path)
-            elif "Urlgrup image" in msg.text:
-                if msg.from_ in admin:
-                    group = kr1.getGroup(msg.to)
-                    path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                    kr1.sendText(msg.to,path)
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'welcome':
-                ginfo = kr1.getGroup(msg.to)
-                kr1.sendText(msg.to,"Selamat Datang Di Grup " + str(ginfo.name))
-                jawaban1 = ("Selamat Datang Di Grup " + str(ginfo.name))
-                kr1.sendText(msg.to,"Owner Grup " + str(ginfo.name) + " :\n" + ginfo.creator.displayName )
-                tts = gTTS(text=jawaban1, lang='id')
-                tts.save('tts.mp3')
-                kr1.sendAudio(msg.to,'tts.mp3')
+
 #==========================[Kris]===========================
             elif msg.text in ["Absen","absen"]:
                 if msg.from_ in admin:
-                    kr1.sendText(msg.to,"👉★★★√")
-                    kr2.sendText(msg.to,"👉★★★★√")
-                    kr3.sendText(msg.to,"👉★★★★★√")
-                    kr4.sendText(msg.to,"👉★★★★★★√")
-                    kr5.sendText(msg.to,"👉★★★★★★★√")
-                    kr6.sendText(msg.to,"👉★★★★★★★★√")
-                    kr7.sendText(msg.to,"👉★★★★★★★★★√")
-                    kr8.sendText(msg.to,"👉★★★★★★★★★★√")
-                    kr9.sendText(msg.to,"👉★★★★★★★★★★★√")
-                    kr10.sendText(msg.to,"👉★★★★★★★★★★★★√")
+                    kr1.sendText(msg.to,"👉★1★√")
+                    kr2.sendText(msg.to,"👉★2★√")
+                    kr3.sendText(msg.to,"👉★3★√")
+                    kr4.sendText(msg.to,"👉★4★√")
+                    kr5.sendText(msg.to,"👉★5★√")
+                    kr6.sendText(msg.to,"👉★6★√")
+                    kr7.sendText(msg.to,"👉★7★√")
+                    kr8.sendText(msg.to,"👉★8★√")
+                    kr9.sendText(msg.to,"👉★9★√")
+                    kr10.sendText(msg.to,"👉★10★√")
                     kr10.sendText(msg.to,"👉Semua Hadir Boss...!!!\n\n[✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰]")
 #==========================[Kris]===========================
             elif "Bcast " in msg.text:
@@ -3757,23 +3080,6 @@ def bot(op):
                     gid = kr1.getGroupIdsJoined()
                     for i in gid:
                         kr1.sendText(i,"●▬▬▬▬ஜ۩[BROADCAST]۩ஜ▬▬▬▬●\n\n"+bc+"\n\n#BROADCAST!!")
-#==========================[Kris]===========================
-            elif msg.text.lower() == 'ifconfig':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["ifconfig"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO NetStat===")
-            elif msg.text.lower() == 'system':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["df","-h"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO SYSTEM===")
-            elif msg.text.lower() == 'kernel':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["uname","-srvmpio"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO KERNEL===")
-            elif msg.text.lower() == 'cpu':
-                if msg.from_ in admin:
-                    botKernel = subprocess.Popen(["cat","/proc/cpuinfo"], stdout=subprocess.PIPE).communicate()[0]
-                    kr1.sendText(msg.to, botKernel + "\n\n===SERVER INFO CPU===")
 #==========================[Kris]===========================
             elif "Restart" in msg.text:
                 if msg.from_ in owner:
@@ -3992,73 +3298,6 @@ def bot(op):
                             except:
                                 creator = "Error"
 #==========================[Kris]===========================
-            elif msg.text in ["Gift 8","Gift8","gift8"]:
-                if msg.from_ in admin:
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': 'ae3d9165-fab2-4e70-859b-c14a9d4137c4',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '8'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-                    
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '5'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': '696d7046-843b-4ed0-8aac-3113ed6c0733',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '6'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-
-                    msg.contentType = 9
-                    msg.contentMetadata={'PRDID': '8fe8cdab-96f3-4f84-95f1-6d731f0e273e',
-                                        'PRDTYPE': 'THEME',
-                                        'MSGTPL': '7'}
-                    msg.text = None
-                    kr1.sendMessage(msg)
-                    kr1.sendMessage(msg)
-    #==========================[Kris]===========================
-            elif msg.text in ["Gift","gift"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '5'}
-                msg.text = None
-                kr1.sendMessage(msg)
-
-
-            elif msg.text in ["Gift1"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '696d7046-843b-4ed0-8aac-3113ed6c0733',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '6'}
-                msg.text = None
-                kr1.sendMessage(msg)
-
-            elif msg.text in ["Gift2"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': '8fe8cdab-96f3-4f84-95f1-6d731f0e273e',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '7'}
-                msg.text = None
-                kr1.sendMessage(msg)
-
-            elif msg.text in ["Gift3"]:
-                msg.contentType = 9
-                msg.contentMetadata={'PRDID': 'ae3d9165-fab2-4e70-859b-c14a9d4137c4',
-                                    'PRDTYPE': 'THEME',
-                                    'MSGTPL': '8'}
-                msg.text = None
-                kr1.sendMessage(msg)
-#==========================[Kris]===========================
             elif msg.text in ["Gcreator:inv"]:
                 if msg.from_ in admin:
                     ginfo = kr1.getGroup(msg.to)
@@ -4080,45 +3319,6 @@ def bot(op):
                        print "success inv gCreator"
                     except:
                        pass
-#==========================[Kris]===========================
-            elif "Getcover @" in msg.text:
-                if msg.from_ in admin:
-                    print "[Command]dp executing"
-                    _name = msg.text.replace("Getcover @","")
-                    _nametarget = _name.rstrip('  ')
-                    gs = kr1.getGroup(msg.to)
-                    targets = []
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            targets.append(g.mid)
-                    if targets == []:
-                        kr2.sendText(msg.to,"Contact not found")
-                    else:
-                        for target in targets:
-                            try:
-                                contact = kr1.getContact(target)
-                                cu = kr1.channel.getCover(target)
-                                path = str(cu)
-                                kr1.sendImageWithURL(msg.to, path)
-                            except:
-                                pass
-                    print "[Command]dp executed"
-#==========================[Kris]===========================
-            elif msg.text in ["Waktu"]:
-                timeNow = datetime.now()
-                timeHours = datetime.strftime(timeNow,"(%H:%M)")
-                day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
-                inihari = datetime.today()
-                hr = inihari.strftime('%A')
-                bln = inihari.strftime('%m')
-                for i in range(len(day)):
-                    if hr == day[i]: hasil = hari[i]
-                for k in range(0, len(bulan)):
-                    if bln == str(k): bln = bulan[k-1]
-                rst = hasil + ", " + inihari.strftime('%d') + " - " + bln + " - " + inihari.strftime('%Y') + "\nJam : [ " + inihari.strftime('%H:%M:%S') + " ]"
-                kr1.sendText(msg.to, rst)
 #==========================[Kris]=========================== 
             elif msg.text in ["aah","Aah"]:
                 if msg.from_ in owner:
@@ -4313,41 +3513,6 @@ def bot(op):
                             except:
                                 pass       
 #==========================[Kris]===========================
-            elif "Kr spamtag @" in msg.text:
-                if msg.from_ in owner:
-                    _name = msg.text.replace("Kr spamtag @","")
-                    _nametarget = _name.rstrip(' ')
-                    gs = kr1.getGroup(msg.to)
-                    for g in gs.members:
-                        if _nametarget == g.displayName:
-                            xname = g.displayName
-                            xlen = str(len(xname)+1)
-                            msg.contentType = 0
-                            msg.text = "@"+xname+" "
-                            msg.contentMetadata ={"MENTION":'{"MENTIONEES":[{"S":"0","E":'+json.dumps(xlen)+',"M":'+json.dumps(g.mid)+'}]}','EMTVER':'4'}
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                            kr1.sendMessage(msg)
-                        else:
-                            pass
-#==========================[Kris]===========================
             elif ("Kr cium " in msg.text):
                 if msg.from_ in owner:
                    targets = []
@@ -4493,12 +3658,6 @@ def bot(op):
                     kr10.removeAllMessages(op.param2)
                     kr1.sendText(msg.to,"Removed all chat Finish")
 #==========================[Kris]===========================
-            elif msg.text in ["Kr muach"]:
-                if msg.from_ in owner:
-                    msg.contentType = 13
-                    msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
-                    kr1.sendMessage(msg)
-#==========================[Kris]===========================
 #        if op.type == 17:
 #            if wait["protect"] == True:
 #                if wait["blacklist"][op.param2] == True:
@@ -4607,46 +3766,8 @@ def bot(op):
 #                    G = random.choice(KAC).getGroup(op.param1)
 #                    G.preventJoinByTicket = True
 #                    random.choice(KAC).updateGroup(G)
-        if op.type == 17:
-           if wait["Wc"] == True:
-               if op.param2 in Bots:
-                 return
-               ginfo = kr1.getGroup(op.param1)
-               kr1.sendText(op.param1, "╔═════════════\n║Selamat Datang Di  " + str(ginfo.name) + "\n╠═════════════\n" + "║Founder =>>> " + str(ginfo.name) + " :\n║" + ginfo.creator.displayName + "\n╠═════════════\n" + "║😊Semoga Betah Kak 😘 \n╚═════════════")
-               print "MEMBER HAS JOIN THE GROUP"
-        if op.type == 17:
-            if wait["Wc2"] == True:
-                if op.param2 in Bots:
-                    return
-                G = kr1.getGroup(op.param1)
-                h = kr1.getContact(op.param2)
-                kr1.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net/" + h.pictureStatus)
-                print "MEMBER HAS JOIN THE GROUP"
-        if op.type == 15:
-            if wait["Lv"] == True:
-                if op.param2 in Bots:
-                    return
-                kr1.sendText(op.param1, "╔═════════════\n║Baper Tuh Orang :v \n║Semoga Bahagia ya 😊 \n╚═════════════")
-                print "MEMBER HAS LEFT THE GROUP"
+       
 #------------------------------------------------------------------------------#
-
-        if op.type == 55:
-            try:
-                if op.param1 in wait2['readPoint']:
-           
-                    if op.param2 in wait2['readMember'][op.param1]:
-                        pass
-                    else:
-                        wait2['readMember'][op.param1] += op.param2
-                    wait2['ROM'][op.param1][op.param2] = op.param2
-                    with open('sider.json', 'w') as fp:
-                     json.dump(wait2, fp, sort_keys=True, indent=4)
-                else:
-                    pass
-            except:
-                pass           
-            
-        
         if op.type == 59:
             print op
     
